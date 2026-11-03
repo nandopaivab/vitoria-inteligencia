@@ -104,19 +104,15 @@ if (!$isLocked && $_SERVER['REQUEST_METHOD'] === 'POST') {
                     }
 
                     $sqlContent = file_get_contents(SCHEMA_SQL_PATH);
-                    // Dividir instruções SQL com segurança
-                    $statements = preg_split('/;\s*[\r\n]+/', $sqlContent);
+                    // Remover linhas puramente comentadas ANTES de dividir por ';'
+                    $cleanLines = array_filter(explode("\n", $sqlContent), function ($line) {
+                        $t = trim($line);
+                        return $t !== '' && strpos($t, '--') !== 0;
+                    });
+                    $cleanSql = implode("\n", $cleanLines);
+                    $statements = preg_split('/;\s*[\r\n]+/', $cleanSql);
                     foreach ($statements as $stmtSql) {
                         $stmtSql = trim($stmtSql);
-                        if ($stmtSql === '' || strpos($stmtSql, '--') === 0) {
-                            // Remover linhas puramente comentadas no início do bloco
-                            $lines = explode("\n", $stmtSql);
-                            $cleanLines = array_filter($lines, function ($l) {
-                                $t = trim($l);
-                                return $t !== '' && strpos($t, '--') !== 0;
-                            });
-                            $stmtSql = trim(implode("\n", $cleanLines));
-                        }
                         if ($stmtSql !== '') {
                             $pdo->exec($stmtSql);
                         }

@@ -65,6 +65,7 @@ class OpenAIService
         $usedModel = $model;
         $aiText    = '';
         $apiLive   = false;
+        $apiErrorReason = '';
 
         if (self::isConfigured() && function_exists('curl_init')) {
             $payload = json_encode([
@@ -101,13 +102,25 @@ class OpenAIService
                     Logger::audit("Análise OpenAI executada ({$analysisType})", 'Inteligência Artificial', "Modelo: {$model}");
                 }
             } else {
-                Logger::error("Falha na chamada OpenAI HTTP {$httpCode}: {$curlErr}");
+                $decodedErr = json_decode((string)$response, true);
+                $openAiMsg  = $decodedErr['error']['message'] ?? '';
+                $openAiCode = $decodedErr['error']['code'] ?? ($decodedErr['error']['type'] ?? '');
+                if ($openAiCode === 'insufficient_quota' || $httpCode === 429) {
+                    $apiErrorReason = "Sua chave da OpenAI está conectada, porém a conta da OpenAI retornou erro HTTP 429 (`insufficient_quota` — sem saldo de créditos de API ativo em platform.openai.com/settings/organization/billing). Adicione créditos na OpenAI para usar o modelo externo.";
+                } elseif ($httpCode === 401) {
+                    $apiErrorReason = "A chave da OpenAI informada foi recusada (HTTP 401 — chave inválida ou revogada).";
+                } else {
+                    $apiErrorReason = "A chamada à API da OpenAI retornou HTTP {$httpCode}" . ($openAiMsg ? " ({$openAiMsg})" : '') . ($curlErr ? " - {$curlErr}" : '') . ".";
+                }
+                Logger::error("Falha na chamada OpenAI HTTP {$httpCode}: {$openAiCode} - {$openAiMsg} {$curlErr}");
             }
         }
 
         if (!$apiLive) {
-            $usedModel = 'Motor Analítico Local (Sem Chave OpenAI Ativa)';
-            $aiText    = self::buildDeterministicReport($analysisType, $customPrompt, $contextData, $nowStr);
+            $usedModel = self::isConfigured()
+                ? 'Motor Analítico Local (Contingência — Sem Saldo/Quota OpenAI)'
+                : 'Motor Analítico Local (Sem Chave OpenAI Ativa)';
+            $aiText = self::buildDeterministicReport($analysisType, $customPrompt, $contextData, $nowStr, $apiErrorReason);
         }
 
         // Salvar no histórico do banco de dados
@@ -175,7 +188,7 @@ class OpenAIService
         ];
     }
 
-    private static function buildDeterministicReport(string $type, string $customPrompt, array $ctx, string $nowStr): string
+    private static function buildDeterministicReport(string $type, string $customPrompt, array $ctx, string $nowStr, string $apiErrorReason = ''): string
     {
         $cats = [];
         foreach ($ctx['top_categories'] as $c) {
@@ -195,9 +208,15 @@ class OpenAIService
         }
         $newsBlock = !empty($newsLines) ? implode("\n", $newsLines) : "- Nenhuma notícia monitorada até o momento.";
 
-        $headerNotice = "⚠️ **[STATUS DA INTEGRAÇÃO OPENAI: MODO ANALÍTICO LOCAL ATIVO]**\n"
-            . "A chave da API OpenAI (`sk-...`) ainda não foi inserida em *Configurações > Integrações*. "
-            . "Abaixo está o relatório consolidado gerado pelo motor estatístico interno da plataforma Vitória Inteligência com base nos dados reais armazenados no MySQL em **{$nowStr}**.\n\n---\n\n";
+        if ($apiErrorReason !== '') {
+            $headerNotice = "⚠️ **[AVISO DA API OPENAI — CONTINGÊNCIA LOCAL ATIVADA]**\n"
+                . "{$apiErrorReason}\n"
+                . "Abaixo está o relatório consolidado gerado pelo motor estatístico interno da plataforma Vitória Inteligência com base nos dados reais armazenados no MySQL em **{$nowStr}**.\n\n---\n\n";
+        } else {
+            $headerNotice = "⚠️ **[STATUS DA INTEGRAÇÃO OPENAI: MODO ANALÍTICO LOCAL ATIVO]**\n"
+                . "A chave da API OpenAI (`sk-...`) ainda não foi inserida em *Configurações > Integrações*. "
+                . "Abaixo está o relatório consolidado gerado pelo motor estatístico interno da plataforma Vitória Inteligência com base nos dados reais armazenados no MySQL em **{$nowStr}**.\n\n---\n\n";
+        }
 
         switch ($type) {
             case 'Resumo de Notícias':

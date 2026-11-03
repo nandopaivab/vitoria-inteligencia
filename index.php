@@ -28,6 +28,7 @@ date_default_timezone_set($config['timezone'] ?? 'America/Sao_Paulo');
 Security::init($config['app_key'] ?? '');
 Security::startSecureSession($config['session_name'] ?? 'VITORIA_INTEL_SESS');
 Database::init($config);
+ensure_initial_seed_data();
 
 $route = $_GET['route'] ?? 'dashboard';
 

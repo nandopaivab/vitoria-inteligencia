@@ -7,6 +7,39 @@ define('BASE_PATH', dirname(__DIR__));
 define('CONFIG_FILE', BASE_PATH . '/config/config.php');
 define('INSTALL_LOCK_FILE', BASE_PATH . '/storage/installed.lock');
 
+function ensure_initial_seed_data(): void
+{
+    try {
+        $demandsCount = (int)\App\Core\Database::fetchColumn("SELECT COUNT(*) FROM demands");
+        $bairrosCount = (int)\App\Core\Database::fetchColumn("SELECT COUNT(*) FROM neighborhoods");
+        if ($demandsCount === 0 || $bairrosCount < 80) {
+            $schemaFile = BASE_PATH . '/database/schema.sql';
+            if (file_exists($schemaFile)) {
+                $sqlContent = file_get_contents($schemaFile);
+                $cleanLines = array_filter(explode("\n", $sqlContent), function ($line) {
+                    $t = trim($line);
+                    return $t !== '' && strpos($t, '--') !== 0;
+                });
+                $cleanSql = implode("\n", $cleanLines);
+                $statements = preg_split('/;\s*[\r\n]+/', $cleanSql);
+                $pdo = \App\Core\Database::getConnection();
+                foreach ($statements as $stmtSql) {
+                    $stmtSql = trim($stmtSql);
+                    if ($stmtSql !== '') {
+                        try {
+                            $pdo->exec($stmtSql);
+                        } catch (\Throwable $e) {
+                            // Ignorar caso registro já exista
+                        }
+                    }
+                }
+            }
+        }
+    } catch (\Throwable $e) {
+        // Silencioso
+    }
+}
+
 // Autoloader PSR-4 nativo para o namespace App\
 spl_autoload_register(function (string $class): void {
     $prefix = 'App\\';
