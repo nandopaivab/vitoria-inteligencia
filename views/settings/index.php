@@ -20,14 +20,26 @@
                     <input type="email" name="lgpd_dpo_email" class="form-control form-control-sm" value="<?= e($settingsMap['lgpd_dpo_email'] ?? 'lgpd@inteligencia.fernandopaiva.com.br') ?>" required>
                 </div>
                 <div class="mb-3">
-                    <label class="form-label small fw-semibold">Chave da API OpenAI (<code>sk-...</code> — Criptografada com AES-256-CBC)</label>
-                    <input type="password" name="openai_api_key" class="form-control form-control-sm" placeholder="<?= !empty($settingsMap['openai_api_key']) ? '•••••••••••• (Chave configurada — preencha para alterar)' : 'sk-proj-...' ?>">
+                    <label class="form-label small fw-semibold">Chave de API de IA (Suporta <strong>Google Gemini Gratuito</strong> <code>AIza...</code>, <strong>Groq Gratuito</strong> <code>gsk_...</code> ou <strong>OpenAI</strong> <code>sk-...</code>)</label>
+                    <input type="password" name="openai_api_key" class="form-control form-control-sm" placeholder="<?= !empty($settingsMap['openai_api_key']) ? '•••••••••••• (Chave configurada — preencha para alterar)' : 'Cole AIza... (Gemini Grátis), gsk_... (Groq Grátis) ou sk-... (OpenAI)' ?>">
+                    <div class="form-text small">
+                        <i class="bi bi-gift-fill text-success me-1"></i><strong>Opções 100% Gratuitas:</strong> Gere uma chave grátis em <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">Google AI Studio (Gemini)</a> ou <a href="https://console.groq.com/keys" target="_blank" rel="noopener">Groq Cloud</a> e cole acima!
+                    </div>
                 </div>
                 <div class="mb-3">
-                    <label class="form-label small fw-semibold">Modelo OpenAI Padrão</label>
+                    <label class="form-label small fw-semibold">Modelo de IA Padrão</label>
                     <select name="openai_model" class="form-select form-select-sm">
-                        <?php foreach (['gpt-4o-mini', 'gpt-4o', 'gpt-4-turbo'] as $m): ?>
-                            <option value="<?= e($m) ?>" <?= (($settingsMap['openai_model'] ?? 'gpt-4o-mini') === $m) ? 'selected' : '' ?>><?= e($m) ?></option>
+                        <?php
+                        $modelsList = [
+                            'gemini-2.0-flash'        => 'Google Gemini 2.0 Flash (100% GRATUITO com chave AIza...)',
+                            'gemini-1.5-flash'        => 'Google Gemini 1.5 Flash (100% GRATUITO com chave AIza...)',
+                            'llama-3.3-70b-versatile' => 'Llama 3.3 70B via Groq (100% GRATUITO com chave gsk_...)',
+                            'gpt-4o-mini'             => 'OpenAI GPT-4o Mini (Requer créditos na OpenAI)',
+                            'gpt-4o'                  => 'OpenAI GPT-4o (Requer créditos na OpenAI)',
+                        ];
+                        foreach ($modelsList as $mKey => $mLabel):
+                        ?>
+                            <option value="<?= e($mKey) ?>" <?= (($settingsMap['openai_model'] ?? 'gemini-2.0-flash') === $mKey) ? 'selected' : '' ?>><?= e($mLabel) ?></option>
                         <?php endforeach; ?>
                     </select>
                 </div>

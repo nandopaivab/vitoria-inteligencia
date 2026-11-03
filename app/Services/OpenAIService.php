@@ -28,7 +28,21 @@ class OpenAIService
     public static function isConfigured(): bool
     {
         $apiKey = trim(get_setting('openai_api_key', ''));
-        return strlen($apiKey) > 20 && strpos($apiKey, 'sk-') === 0;
+        return strlen($apiKey) > 15;
+    }
+
+    public static function detectProvider(string $apiKey, string $model): string
+    {
+        if (strpos($apiKey, 'AIza') === 0 || strpos($model, 'gemini-') === 0) {
+            return 'Google Gemini (Gratuito)';
+        }
+        if (strpos($apiKey, 'gsk_') === 0 || strpos($model, 'llama-') === 0) {
+            return 'Groq Cloud (Gratuito)';
+        }
+        if (strpos($apiKey, 'sk-') === 0) {
+            return 'OpenAI API';
+        }
+        return 'Motor Analítico Local';
     }
 
     /**
@@ -68,8 +82,27 @@ class OpenAIService
         $apiErrorReason = '';
 
         if (self::isConfigured() && function_exists('curl_init')) {
+            // Detectar automaticamente endpoint com base na chave ou modelo selecionado
+            $isGemini = (strpos($apiKey, 'AIza') === 0 || strpos($model, 'gemini-') === 0);
+            $isGroq   = (strpos($apiKey, 'gsk_') === 0 || strpos($model, 'llama-') === 0);
+
+            if ($isGemini) {
+                $geminiModel = strpos($model, 'gemini-') === 0 ? $model : 'gemini-2.0-flash';
+                $usedModel   = $geminiModel . ' (Google AI Studio - Gratuito)';
+                $endpointUrl = "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions";
+                $reqModel    = $geminiModel;
+            } elseif ($isGroq) {
+                $groqModel   = strpos($model, 'llama-') === 0 ? $model : 'llama-3.3-70b-versatile';
+                $usedModel   = $groqModel . ' (Groq Cloud - Gratuito)';
+                $endpointUrl = "https://api.groq.com/openai/v1/chat/completions";
+                $reqModel    = $groqModel;
+            } else {
+                $endpointUrl = "https://api.openai.com/v1/chat/completions";
+                $reqModel    = $model;
+            }
+
             $payload = json_encode([
-                'model'       => $model,
+                'model'       => $reqModel,
                 'temperature' => 0.3,
                 'messages'    => [
                     ['role' => 'system', 'content' => $systemInstruction],
@@ -77,7 +110,7 @@ class OpenAIService
                 ],
             ]);
 
-            $ch = curl_init('https://api.openai.com/v1/chat/completions');
+            $ch = curl_init($endpointUrl);
             curl_setopt_array($ch, [
                 CURLOPT_RETURNTRANSFER => true,
                 CURLOPT_POST           => true,
@@ -99,20 +132,20 @@ class OpenAIService
                 if (!empty($decoded['choices'][0]['message']['content'])) {
                     $aiText  = trim($decoded['choices'][0]['message']['content']);
                     $apiLive = true;
-                    Logger::audit("Análise OpenAI executada ({$analysisType})", 'Inteligência Artificial', "Modelo: {$model}");
+                    Logger::audit("Análise IA executada ({$analysisType})", 'Inteligência Artificial', "Modelo: {$usedModel}");
                 }
             } else {
                 $decodedErr = json_decode((string)$response, true);
                 $openAiMsg  = $decodedErr['error']['message'] ?? '';
                 $openAiCode = $decodedErr['error']['code'] ?? ($decodedErr['error']['type'] ?? '');
                 if ($openAiCode === 'insufficient_quota' || $httpCode === 429) {
-                    $apiErrorReason = "Sua chave da OpenAI está conectada, porém a conta da OpenAI retornou erro HTTP 429 (`insufficient_quota` — sem saldo de créditos de API ativo em platform.openai.com/settings/organization/billing). Adicione créditos na OpenAI para usar o modelo externo.";
+                    $apiErrorReason = "A chave informada retornou erro HTTP 429 (`insufficient_quota` — conta sem saldo na OpenAI). DICA GRATUITA: Gere uma chave gratuita no Google AI Studio (`aistudio.google.com/apikey` — começa com `AIza...`) ou na Groq Cloud (`console.groq.com/keys` — começa com `gsk_...`) e salve em Configurações!";
                 } elseif ($httpCode === 401) {
-                    $apiErrorReason = "A chave da OpenAI informada foi recusada (HTTP 401 — chave inválida ou revogada).";
+                    $apiErrorReason = "A chave de API informada foi recusada (HTTP 401 — chave inválida ou revogada).";
                 } else {
-                    $apiErrorReason = "A chamada à API da OpenAI retornou HTTP {$httpCode}" . ($openAiMsg ? " ({$openAiMsg})" : '') . ($curlErr ? " - {$curlErr}" : '') . ".";
+                    $apiErrorReason = "A chamada à API retornou HTTP {$httpCode}" . ($openAiMsg ? " ({$openAiMsg})" : '') . ($curlErr ? " - {$curlErr}" : '') . ".";
                 }
-                Logger::error("Falha na chamada OpenAI HTTP {$httpCode}: {$openAiCode} - {$openAiMsg} {$curlErr}");
+                Logger::error("Falha na chamada IA HTTP {$httpCode}: {$openAiCode} - {$openAiMsg} {$curlErr}");
             }
         }
 
