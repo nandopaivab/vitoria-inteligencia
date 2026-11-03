@@ -25,24 +25,22 @@ use App\Core\Logger;
 
 class OpenAIService
 {
+    public static function getActiveApiKey(): string
+    {
+        return trim(get_setting('openai_api_key', ''));
+    }
+
     public static function isConfigured(): bool
     {
-        $apiKey = trim(get_setting('openai_api_key', ''));
+        $apiKey = self::getActiveApiKey();
         return strlen($apiKey) > 15;
     }
 
-    public static function detectProvider(string $apiKey, string $model): string
+    public static function isGeminiKey(string $apiKey, string $model = ''): bool
     {
-        if (strpos($apiKey, 'AIza') === 0 || strpos($model, 'gemini-') === 0) {
-            return 'Google Gemini (Gratuito)';
-        }
-        if (strpos($apiKey, 'gsk_') === 0 || strpos($model, 'llama-') === 0) {
-            return 'Groq Cloud (Gratuito)';
-        }
-        if (strpos($apiKey, 'sk-') === 0) {
-            return 'OpenAI API';
-        }
-        return 'Motor Analítico Local';
+        return strpos($apiKey, 'AIza') === 0
+            || strpos($apiKey, 'AQ.') === 0
+            || strpos($model, 'gemini-') === 0;
     }
 
     /**
@@ -50,8 +48,8 @@ class OpenAIService
      */
     public static function executeAnalysis(string $analysisType, string $customPrompt = ''): array
     {
-        $apiKey = trim(get_setting('openai_api_key', ''));
-        $model  = trim(get_setting('openai_model', 'gpt-4o-mini')) ?: 'gpt-4o-mini';
+        $apiKey = self::getActiveApiKey();
+        $model  = trim(get_setting('openai_model', 'gemini-3.6-flash')) ?: 'gemini-3.6-flash';
         $nowStr = date('d/m/Y H:i:s');
 
         // Coletar contexto real do banco de dados de Vitória/ES
@@ -82,70 +80,68 @@ class OpenAIService
         $apiErrorReason = '';
 
         if (self::isConfigured() && function_exists('curl_init')) {
-            // Detectar automaticamente endpoint com base na chave ou modelo selecionado
-            $isGemini = (strpos($apiKey, 'AIza') === 0 || strpos($model, 'gemini-') === 0);
+            $isGemini = self::isGeminiKey($apiKey, $model);
             $isGroq   = (strpos($apiKey, 'gsk_') === 0 || strpos($model, 'llama-') === 0);
 
             if ($isGemini) {
-                $geminiModel = strpos($model, 'gemini-') === 0 ? $model : 'gemini-2.0-flash';
-                $usedModel   = $geminiModel . ' (Google AI Studio - Gratuito)';
-                $endpointUrl = "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions";
-                $reqModel    = $geminiModel;
-            } elseif ($isGroq) {
-                $groqModel   = strpos($model, 'llama-') === 0 ? $model : 'llama-3.3-70b-versatile';
-                $usedModel   = $groqModel . ' (Groq Cloud - Gratuito)';
-                $endpointUrl = "https://api.groq.com/openai/v1/chat/completions";
-                $reqModel    = $groqModel;
-            } else {
-                $endpointUrl = "https://api.openai.com/v1/chat/completions";
-                $reqModel    = $model;
-            }
-
-            $payload = json_encode([
-                'model'       => $reqModel,
-                'temperature' => 0.3,
-                'messages'    => [
-                    ['role' => 'system', 'content' => $systemInstruction],
-                    ['role' => 'user', 'content' => $fullPrompt],
-                ],
-            ]);
-
-            $ch = curl_init($endpointUrl);
-            curl_setopt_array($ch, [
-                CURLOPT_RETURNTRANSFER => true,
-                CURLOPT_POST           => true,
-                CURLOPT_POSTFIELDS     => $payload,
-                CURLOPT_TIMEOUT        => 25,
-                CURLOPT_HTTPHEADER     => [
-                    'Content-Type: application/json',
-                    'Authorization: Bearer ' . $apiKey,
-                ],
-            ]);
-
-            $response = curl_exec($ch);
-            $httpCode = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
-            $curlErr  = curl_error($ch);
-            curl_close($ch);
-
-            if ($response !== false && $httpCode >= 200 && $httpCode < 300) {
-                $decoded = json_decode($response, true);
-                if (!empty($decoded['choices'][0]['message']['content'])) {
-                    $aiText  = trim($decoded['choices'][0]['message']['content']);
-                    $apiLive = true;
-                    Logger::audit("Análise IA executada ({$analysisType})", 'Inteligência Artificial', "Modelo: {$usedModel}");
-                }
-            } else {
-                $decodedErr = json_decode((string)$response, true);
-                $openAiMsg  = $decodedErr['error']['message'] ?? '';
-                $openAiCode = $decodedErr['error']['code'] ?? ($decodedErr['error']['type'] ?? '');
-                if ($openAiCode === 'insufficient_quota' || $httpCode === 429) {
-                    $apiErrorReason = "A chave informada retornou erro HTTP 429 (`insufficient_quota` — conta sem saldo na OpenAI). DICA GRATUITA: Gere uma chave gratuita no Google AI Studio (`aistudio.google.com/apikey` — começa com `AIza...`) ou na Groq Cloud (`console.groq.com/keys` — começa com `gsk_...`) e salve em Configurações!";
-                } elseif ($httpCode === 401) {
-                    $apiErrorReason = "A chave de API informada foi recusada (HTTP 401 — chave inválida ou revogada).";
+                $geminiRes = self::callNativeGeminiApi($apiKey, $systemInstruction . "\n\n" . $fullPrompt);
+                if ($geminiRes['ok']) {
+                    $aiText    = $geminiRes['text'];
+                    $usedModel = $geminiRes['model'] . ' (Google Gemini Gratuito Ativo)';
+                    $apiLive   = true;
+                    Logger::audit("Análise Google Gemini executada ({$analysisType})", 'Inteligência Artificial', "Modelo: {$usedModel}");
                 } else {
-                    $apiErrorReason = "A chamada à API retornou HTTP {$httpCode}" . ($openAiMsg ? " ({$openAiMsg})" : '') . ($curlErr ? " - {$curlErr}" : '') . ".";
+                    $apiErrorReason = $geminiRes['error'];
                 }
-                Logger::error("Falha na chamada IA HTTP {$httpCode}: {$openAiCode} - {$openAiMsg} {$curlErr}");
+            } else {
+                if ($isGroq) {
+                    $groqModel   = strpos($model, 'llama-') === 0 ? $model : 'llama-3.3-70b-versatile';
+                    $usedModel   = $groqModel . ' (Groq Cloud - Gratuito)';
+                    $endpointUrl = "https://api.groq.com/openai/v1/chat/completions";
+                    $reqModel    = $groqModel;
+                } else {
+                    $endpointUrl = "https://api.openai.com/v1/chat/completions";
+                    $reqModel    = $model;
+                }
+
+                $payload = json_encode([
+                    'model'       => $reqModel,
+                    'temperature' => 0.3,
+                    'messages'    => [
+                        ['role' => 'system', 'content' => $systemInstruction],
+                        ['role' => 'user', 'content' => $fullPrompt],
+                    ],
+                ]);
+
+                $ch = curl_init($endpointUrl);
+                curl_setopt_array($ch, [
+                    CURLOPT_RETURNTRANSFER => true,
+                    CURLOPT_POST           => true,
+                    CURLOPT_POSTFIELDS     => $payload,
+                    CURLOPT_TIMEOUT        => 25,
+                    CURLOPT_HTTPHEADER     => [
+                        'Content-Type: application/json',
+                        'Authorization: Bearer ' . $apiKey,
+                    ],
+                ]);
+
+                $response = curl_exec($ch);
+                $httpCode = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
+                $curlErr  = curl_error($ch);
+                curl_close($ch);
+
+                if ($response !== false && $httpCode >= 200 && $httpCode < 300) {
+                    $decoded = json_decode($response, true);
+                    if (!empty($decoded['choices'][0]['message']['content'])) {
+                        $aiText  = trim($decoded['choices'][0]['message']['content']);
+                        $apiLive = true;
+                        Logger::audit("Análise IA executada ({$analysisType})", 'Inteligência Artificial', "Modelo: {$usedModel}");
+                    }
+                } else {
+                    $decodedErr = json_decode((string)$response, true);
+                    $openAiMsg  = $decodedErr['error']['message'] ?? '';
+                    $apiErrorReason = "A chamada à API retornou HTTP {$httpCode} ({$openAiMsg}).";
+                }
             }
         }
 
@@ -184,6 +180,76 @@ class OpenAIService
             'limitations' => $limitationsText,
             'model'       => $usedModel,
             'api_live'    => $apiLive,
+        ];
+    }
+
+    /**
+     * Chama a API nativa generateContent do Google Gemini com failover automático entre os modelos ativos da chave.
+     */
+    private static function callNativeGeminiApi(string $apiKey, string $promptText): array
+    {
+        $candidateModels = [
+            'gemini-3.6-flash',
+            'gemini-3.5-flash-lite',
+            'gemini-flash-lite-latest',
+            'gemini-3.8-flash',
+            'gemini-3.5-flash',
+        ];
+
+        $payload = json_encode([
+            'contents' => [
+                [
+                    'parts' => [
+                        ['text' => $promptText],
+                    ],
+                ],
+            ],
+            'generationConfig' => [
+                'temperature' => 0.3,
+            ],
+        ]);
+
+        $lastErr = '';
+        foreach ($candidateModels as $candModel) {
+            $url = "https://generativelanguage.googleapis.com/v1beta/models/{$candModel}:generateContent?key=" . rawurlencode($apiKey);
+            $ch  = curl_init($url);
+            curl_setopt_array($ch, [
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_POST           => true,
+                CURLOPT_POSTFIELDS     => $payload,
+                CURLOPT_TIMEOUT        => 20,
+                CURLOPT_HTTPHEADER     => ['Content-Type: application/json'],
+            ]);
+            $res  = curl_exec($ch);
+            $code = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
+            curl_close($ch);
+
+            if ($res !== false && $code >= 200 && $code < 300) {
+                $json = json_decode((string)$res, true);
+                if (!empty($json['candidates'][0]['content']['parts'])) {
+                    $partsText = '';
+                    foreach ($json['candidates'][0]['content']['parts'] as $part) {
+                        if (!empty($part['text'])) {
+                            $partsText .= $part['text'];
+                        }
+                    }
+                    if (trim($partsText) !== '') {
+                        return [
+                            'ok'    => true,
+                            'text'  => trim($partsText),
+                            'model' => $candModel,
+                        ];
+                    }
+                }
+            } else {
+                $dec = json_decode((string)$res, true);
+                $lastErr = $dec['error']['message'] ?? "HTTP {$code}";
+            }
+        }
+
+        return [
+            'ok'    => false,
+            'error' => "Falha ao consultar modelos Gemini ({$lastErr}).",
         ];
     }
 

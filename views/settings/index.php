@@ -31,11 +31,12 @@
                     <select name="openai_model" class="form-select form-select-sm">
                         <?php
                         $modelsList = [
-                            'gemini-2.0-flash'        => 'Google Gemini 2.0 Flash (100% GRATUITO com chave AIza...)',
-                            'gemini-1.5-flash'        => 'Google Gemini 1.5 Flash (100% GRATUITO com chave AIza...)',
-                            'llama-3.3-70b-versatile' => 'Llama 3.3 70B via Groq (100% GRATUITO com chave gsk_...)',
-                            'gpt-4o-mini'             => 'OpenAI GPT-4o Mini (Requer créditos na OpenAI)',
-                            'gpt-4o'                  => 'OpenAI GPT-4o (Requer créditos na OpenAI)',
+                            'gemini-3.6-flash'         => 'Google Gemini 3.6 Flash (100% GRATUITO — Ativo)',
+                            'gemini-3.5-flash-lite'    => 'Google Gemini 3.5 Flash Lite (100% GRATUITO — Alta Velocidade)',
+                            'gemini-flash-lite-latest' => 'Google Gemini Flash Lite Latest (100% GRATUITO)',
+                            'llama-3.3-70b-versatile'  => 'Llama 3.3 70B via Groq (100% GRATUITO com chave gsk_...)',
+                            'gpt-4o-mini'              => 'OpenAI GPT-4o Mini (Requer créditos na OpenAI)',
+                            'gpt-4o'                   => 'OpenAI GPT-4o (Requer créditos na OpenAI)',
                         ];
                         foreach ($modelsList as $mKey => $mLabel):
                         ?>
