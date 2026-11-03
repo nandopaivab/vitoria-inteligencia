@@ -1,0 +1,4733 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "municipio": "Vitória",
+    "uf": "ES",
+    "codigo_ibge": "3205309",
+    "lei_referencia": "Lei Municipal nº 8.611/2013",
+    "fonte": "Prefeitura Municipal de Vitória (GeoWeb) / GEOBASES-ES (IJSN) / IBGE",
+    "total_bairros": 80
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "id": 1,
+        "nome": "Centro",
+        "regiao_id": 1,
+        "regiao": "Região 1 - Centro",
+        "populacao": 21640,
+        "area_km2": 1.72,
+        "domicilios": 8920,
+        "centroide_lat": -20.3197,
+        "centroide_lng": -40.3385,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.333495,
+              -20.319134
+            ],
+            [
+              -40.335245,
+              -20.315811
+            ],
+            [
+              -40.339159,
+              -20.314578
+            ],
+            [
+              -40.343009,
+              -20.316381
+            ],
+            [
+              -40.342819,
+              -20.320188
+            ],
+            [
+              -40.341328,
+              -20.323079
+            ],
+            [
+              -40.337924,
+              -20.324179
+            ],
+            [
+              -40.334534,
+              -20.322619
+            ],
+            [
+              -40.333495,
+              -20.319134
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "properties": {
+        "id": 2,
+        "nome": "Do Moscoso",
+        "regiao_id": 1,
+        "regiao": "Região 1 - Centro",
+        "populacao": 2180,
+        "area_km2": 0.18,
+        "domicilios": 740,
+        "centroide_lat": -20.3175,
+        "centroide_lng": -40.3452,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.342648,
+              -20.316914
+            ],
+            [
+              -40.344111,
+              -20.315817
+            ],
+            [
+              -40.345749,
+              -20.315395
+            ],
+            [
+              -40.347356,
+              -20.316273
+            ],
+            [
+              -40.347137,
+              -20.317945
+            ],
+            [
+              -40.346344,
+              -20.319268
+            ],
+            [
+              -40.344626,
+              -20.319701
+            ],
+            [
+              -40.342954,
+              -20.318778
+            ],
+            [
+              -40.342648,
+              -20.316914
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "properties": {
+        "id": 3,
+        "nome": "Fonte Grande",
+        "regiao_id": 1,
+        "regiao": "Região 1 - Centro",
+        "populacao": 2890,
+        "area_km2": 0.42,
+        "domicilios": 960,
+        "centroide_lat": -20.3155,
+        "centroide_lng": -40.3408,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.338575,
+              -20.314715
+            ],
+            [
+              -40.339678,
+              -20.313178
+            ],
+            [
+              -40.341597,
+              -20.313513
+            ],
+            [
+              -40.343173,
+              -20.314492
+            ],
+            [
+              -40.342812,
+              -20.31621
+            ],
+            [
+              -40.341828,
+              -20.317628
+            ],
+            [
+              -40.339802,
+              -20.317986
+            ],
+            [
+              -40.338635,
+              -20.31642
+            ],
+            [
+              -40.338575,
+              -20.314715
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "properties": {
+        "id": 4,
+        "nome": "Ilha do Príncipe",
+        "regiao_id": 1,
+        "regiao": "Região 1 - Centro",
+        "populacao": 4510,
+        "area_km2": 0.48,
+        "domicilios": 1520,
+        "centroide_lat": -20.3208,
+        "centroide_lng": -40.3528,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.350222,
+              -20.319541
+            ],
+            [
+              -40.352036,
+              -20.318527
+            ],
+            [
+              -40.354198,
+              -20.318281
+            ],
+            [
+              -40.35534,
+              -20.320049
+            ],
+            [
+              -40.354838,
+              -20.321795
+            ],
+            [
+              -40.353637,
+              -20.323291
+            ],
+            [
+              -40.351683,
+              -20.322813
+            ],
+            [
+              -40.350028,
+              -20.32162
+            ],
+            [
+              -40.350222,
+              -20.319541
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "properties": {
+        "id": 5,
+        "nome": "Parque Moscoso",
+        "regiao_id": 1,
+        "regiao": "Região 1 - Centro",
+        "populacao": 2950,
+        "area_km2": 0.25,
+        "domicilios": 1150,
+        "centroide_lat": -20.3188,
+        "centroide_lng": -40.3435,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.3414,
+              -20.3188
+            ],
+            [
+              -40.341642,
+              -20.317058
+            ],
+            [
+              -40.3435,
+              -20.316534
+            ],
+            [
+              -40.345059,
+              -20.317338
+            ],
+            [
+              -40.345494,
+              -20.3188
+            ],
+            [
+              -40.345283,
+              -20.320472
+            ],
+            [
+              -40.3435,
+              -20.320967
+            ],
+            [
+              -40.342015,
+              -20.320192
+            ],
+            [
+              -40.3414,
+              -20.3188
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "properties": {
+        "id": 6,
+        "nome": "Piedade",
+        "regiao_id": 1,
+        "regiao": "Região 1 - Centro",
+        "populacao": 2640,
+        "area_km2": 0.22,
+        "domicilios": 890,
+        "centroide_lat": -20.3162,
+        "centroide_lng": -40.3425,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.340101,
+              -20.315929
+            ],
+            [
+              -40.341073,
+              -20.314495
+            ],
+            [
+              -40.342764,
+              -20.314147
+            ],
+            [
+              -40.344152,
+              -20.314984
+            ],
+            [
+              -40.34448,
+              -20.316424
+            ],
+            [
+              -40.344122,
+              -20.318138
+            ],
+            [
+              -40.342198,
+              -20.318548
+            ],
+            [
+              -40.340599,
+              -20.317599
+            ],
+            [
+              -40.340101,
+              -20.315929
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "properties": {
+        "id": 7,
+        "nome": "Santa Clara",
+        "regiao_id": 1,
+        "regiao": "Região 1 - Centro",
+        "populacao": 2110,
+        "area_km2": 0.19,
+        "domicilios": 720,
+        "centroide_lat": -20.3168,
+        "centroide_lng": -40.3442,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.342263,
+              -20.316355
+            ],
+            [
+              -40.343166,
+              -20.315201
+            ],
+            [
+              -40.344674,
+              -20.314984
+            ],
+            [
+              -40.345905,
+              -20.31583
+            ],
+            [
+              -40.346137,
+              -20.317245
+            ],
+            [
+              -40.345234,
+              -20.318399
+            ],
+            [
+              -40.343726,
+              -20.318616
+            ],
+            [
+              -40.342495,
+              -20.31777
+            ],
+            [
+              -40.342263,
+              -20.316355
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "properties": {
+        "id": 8,
+        "nome": "Vila Rubim",
+        "regiao_id": 1,
+        "regiao": "Região 1 - Centro",
+        "populacao": 2480,
+        "area_km2": 0.31,
+        "domicilios": 910,
+        "centroide_lat": -20.3195,
+        "centroide_lng": -40.3482,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.346037,
+              -20.318737
+            ],
+            [
+              -40.347203,
+              -20.317436
+            ],
+            [
+              -40.349088,
+              -20.317287
+            ],
+            [
+              -40.350593,
+              -20.318483
+            ],
+            [
+              -40.350066,
+              -20.320159
+            ],
+            [
+              -40.349066,
+              -20.321294
+            ],
+            [
+              -40.347423,
+              -20.321435
+            ],
+            [
+              -40.346095,
+              -20.320394
+            ],
+            [
+              -40.346037,
+              -20.318737
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "properties": {
+        "id": 9,
+        "nome": "Alagoano",
+        "regiao_id": 2,
+        "regiao": "Região 2 - Santo Antônio",
+        "populacao": 1950,
+        "area_km2": 0.16,
+        "domicilios": 670,
+        "centroide_lat": -20.3142,
+        "centroide_lng": -40.3545,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.352169,
+              -20.313062
+            ],
+            [
+              -40.353869,
+              -20.312322
+            ],
+            [
+              -40.355567,
+              -20.312278
+            ],
+            [
+              -40.356905,
+              -20.313489
+            ],
+            [
+              -40.356269,
+              -20.315064
+            ],
+            [
+              -40.355163,
+              -20.316172
+            ],
+            [
+              -40.353384,
+              -20.31621
+            ],
+            [
+              -40.351994,
+              -20.314941
+            ],
+            [
+              -40.352169,
+              -20.313062
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "properties": {
+        "id": 10,
+        "nome": "Ariovaldo Favalessa",
+        "regiao_id": 2,
+        "regiao": "Região 2 - Santo Antônio",
+        "populacao": 1820,
+        "area_km2": 0.15,
+        "domicilios": 630,
+        "centroide_lat": -20.313,
+        "centroide_lng": -40.3532,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.350995,
+              -20.313
+            ],
+            [
+              -40.351417,
+              -20.311328
+            ],
+            [
+              -40.3532,
+              -20.311031
+            ],
+            [
+              -40.354909,
+              -20.311398
+            ],
+            [
+              -40.355194,
+              -20.313
+            ],
+            [
+              -40.354834,
+              -20.314532
+            ],
+            [
+              -40.3532,
+              -20.315464
+            ],
+            [
+              -40.351641,
+              -20.314462
+            ],
+            [
+              -40.350995,
+              -20.313
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "properties": {
+        "id": 11,
+        "nome": "Bela Vista",
+        "regiao_id": 2,
+        "regiao": "Região 2 - Santo Antônio",
+        "populacao": 3420,
+        "area_km2": 0.39,
+        "domicilios": 1140,
+        "centroide_lat": -20.3055,
+        "centroide_lng": -40.3595,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.356899,
+              -20.305206
+            ],
+            [
+              -40.358086,
+              -20.30381
+            ],
+            [
+              -40.359827,
+              -20.302959
+            ],
+            [
+              -40.361388,
+              -20.30411
+            ],
+            [
+              -40.361556,
+              -20.305733
+            ],
+            [
+              -40.36105,
+              -20.307352
+            ],
+            [
+              -40.359239,
+              -20.307531
+            ],
+            [
+              -40.357439,
+              -20.307017
+            ],
+            [
+              -40.356899,
+              -20.305206
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "properties": {
+        "id": 12,
+        "nome": "Caratoíra",
+        "regiao_id": 2,
+        "regiao": "Região 2 - Santo Antônio",
+        "populacao": 5120,
+        "area_km2": 0.45,
+        "domicilios": 1780,
+        "centroide_lat": -20.315,
+        "centroide_lng": -40.3515,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.349224,
+              -20.314478
+            ],
+            [
+              -40.349979,
+              -20.312649
+            ],
+            [
+              -40.352141,
+              -20.312544
+            ],
+            [
+              -40.353604,
+              -20.313803
+            ],
+            [
+              -40.353661,
+              -20.315496
+            ],
+            [
+              -40.35296,
+              -20.317256
+            ],
+            [
+              -40.350887,
+              -20.317349
+            ],
+            [
+              -40.349497,
+              -20.31614
+            ],
+            [
+              -40.349224,
+              -20.314478
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "properties": {
+        "id": 13,
+        "nome": "Do Cabral",
+        "regiao_id": 2,
+        "regiao": "Região 2 - Santo Antônio",
+        "populacao": 1980,
+        "area_km2": 0.21,
+        "domicilios": 680,
+        "centroide_lat": -20.3122,
+        "centroide_lng": -40.349,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.346739,
+              -20.311402
+            ],
+            [
+              -40.348046,
+              -20.310226
+            ],
+            [
+              -40.349777,
+              -20.310265
+            ],
+            [
+              -40.350912,
+              -20.311387
+            ],
+            [
+              -40.350866,
+              -20.312859
+            ],
+            [
+              -40.350084,
+              -20.314444
+            ],
+            [
+              -40.348112,
+              -20.314413
+            ],
+            [
+              -40.346799,
+              -20.313135
+            ],
+            [
+              -40.346739,
+              -20.311402
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "properties": {
+        "id": 14,
+        "nome": "Do Quadro",
+        "regiao_id": 2,
+        "regiao": "Região 2 - Santo Antônio",
+        "populacao": 2450,
+        "area_km2": 0.23,
+        "domicilios": 840,
+        "centroide_lat": -20.3145,
+        "centroide_lng": -40.3488,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.347031,
+              -20.313636
+            ],
+            [
+              -40.3482,
+              -20.312717
+            ],
+            [
+              -40.349721,
+              -20.312841
+            ],
+            [
+              -40.350702,
+              -20.313938
+            ],
+            [
+              -40.350569,
+              -20.315364
+            ],
+            [
+              -40.3494,
+              -20.316283
+            ],
+            [
+              -40.347879,
+              -20.316159
+            ],
+            [
+              -40.346898,
+              -20.315062
+            ],
+            [
+              -40.347031,
+              -20.313636
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "properties": {
+        "id": 15,
+        "nome": "Estrelinha",
+        "regiao_id": 2,
+        "regiao": "Região 2 - Santo Antônio",
+        "populacao": 2840,
+        "area_km2": 0.35,
+        "domicilios": 950,
+        "centroide_lat": -20.3018,
+        "centroide_lng": -40.3568,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.354489,
+              -20.3018
+            ],
+            [
+              -40.355092,
+              -20.300198
+            ],
+            [
+              -40.3568,
+              -20.299435
+            ],
+            [
+              -40.358658,
+              -20.300058
+            ],
+            [
+              -40.358794,
+              -20.3018
+            ],
+            [
+              -40.358285,
+              -20.303192
+            ],
+            [
+              -40.3568,
+              -20.303868
+            ],
+            [
+              -40.355166,
+              -20.303332
+            ],
+            [
+              -40.354489,
+              -20.3018
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "properties": {
+        "id": 16,
+        "nome": "Grande Vitória",
+        "regiao_id": 2,
+        "regiao": "Região 2 - Santo Antônio",
+        "populacao": 3690,
+        "area_km2": 0.41,
+        "domicilios": 1240,
+        "centroide_lat": -20.3002,
+        "centroide_lng": -40.3545,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.351722,
+              -20.299886
+            ],
+            [
+              -40.353119,
+              -20.29855
+            ],
+            [
+              -40.354795,
+              -20.297908
+            ],
+            [
+              -40.356613,
+              -20.298645
+            ],
+            [
+              -40.356608,
+              -20.300438
+            ],
+            [
+              -40.35595,
+              -20.301933
+            ],
+            [
+              -40.354192,
+              -20.302596
+            ],
+            [
+              -40.352299,
+              -20.30182
+            ],
+            [
+              -40.351722,
+              -20.299886
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "properties": {
+        "id": 17,
+        "nome": "Inhanguetá",
+        "regiao_id": 2,
+        "regiao": "Região 2 - Santo Antônio",
+        "populacao": 4120,
+        "area_km2": 0.58,
+        "domicilios": 1380,
+        "centroide_lat": -20.298,
+        "centroide_lng": -40.3572,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.354487,
+              -20.297377
+            ],
+            [
+              -40.355543,
+              -20.295439
+            ],
+            [
+              -40.357832,
+              -20.295577
+            ],
+            [
+              -40.359817,
+              -20.296511
+            ],
+            [
+              -40.359653,
+              -20.298563
+            ],
+            [
+              -40.358718,
+              -20.300347
+            ],
+            [
+              -40.356409,
+              -20.301032
+            ],
+            [
+              -40.354812,
+              -20.299359
+            ],
+            [
+              -40.354487,
+              -20.297377
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "properties": {
+        "id": 18,
+        "nome": "Mário Cypreste",
+        "regiao_id": 2,
+        "regiao": "Região 2 - Santo Antônio",
+        "populacao": 2890,
+        "area_km2": 0.62,
+        "domicilios": 980,
+        "centroide_lat": -20.3168,
+        "centroide_lng": -40.3568,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.353709,
+              -20.315709
+            ],
+            [
+              -40.355608,
+              -20.314333
+            ],
+            [
+              -40.358012,
+              -20.31378
+            ],
+            [
+              -40.359557,
+              -20.315629
+            ],
+            [
+              -40.359244,
+              -20.317663
+            ],
+            [
+              -40.358106,
+              -20.319503
+            ],
+            [
+              -40.355831,
+              -20.319214
+            ],
+            [
+              -40.353791,
+              -20.318078
+            ],
+            [
+              -40.353709,
+              -20.315709
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "properties": {
+        "id": 19,
+        "nome": "Santa Tereza",
+        "regiao_id": 2,
+        "regiao": "Região 2 - Santo Antônio",
+        "populacao": 3180,
+        "area_km2": 0.34,
+        "domicilios": 1090,
+        "centroide_lat": -20.3105,
+        "centroide_lng": -40.3522,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.350338,
+              -20.309591
+            ],
+            [
+              -40.35141,
+              -20.30815
+            ],
+            [
+              -40.353316,
+              -20.30849
+            ],
+            [
+              -40.354303,
+              -20.309878
+            ],
+            [
+              -40.353969,
+              -20.311364
+            ],
+            [
+              -40.352958,
+              -20.312756
+            ],
+            [
+              -40.351133,
+              -20.312422
+            ],
+            [
+              -40.350198,
+              -20.311092
+            ],
+            [
+              -40.350338,
+              -20.309591
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "properties": {
+        "id": 20,
+        "nome": "Santo Antônio",
+        "regiao_id": 2,
+        "regiao": "Região 2 - Santo Antônio",
+        "populacao": 11420,
+        "area_km2": 1.15,
+        "domicilios": 3950,
+        "centroide_lat": -20.3088,
+        "centroide_lng": -40.3575,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.35319,
+              -20.3088
+            ],
+            [
+              -40.354585,
+              -20.306067
+            ],
+            [
+              -40.3575,
+              -20.305111
+            ],
+            [
+              -40.360148,
+              -20.306316
+            ],
+            [
+              -40.361057,
+              -20.3088
+            ],
+            [
+              -40.360814,
+              -20.311908
+            ],
+            [
+              -40.3575,
+              -20.313019
+            ],
+            [
+              -40.354452,
+              -20.311658
+            ],
+            [
+              -40.35319,
+              -20.3088
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "properties": {
+        "id": 21,
+        "nome": "Universitário",
+        "regiao_id": 2,
+        "regiao": "Região 2 - Santo Antônio",
+        "populacao": 2250,
+        "area_km2": 0.33,
+        "domicilios": 760,
+        "centroide_lat": -20.3038,
+        "centroide_lng": -40.3532,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.35122,
+              -20.303576
+            ],
+            [
+              -40.351969,
+              -20.302329
+            ],
+            [
+              -40.353439,
+              -20.301943
+            ],
+            [
+              -40.354769,
+              -20.302646
+            ],
+            [
+              -40.35518,
+              -20.304024
+            ],
+            [
+              -40.354431,
+              -20.305271
+            ],
+            [
+              -40.352961,
+              -20.305657
+            ],
+            [
+              -40.351631,
+              -20.304954
+            ],
+            [
+              -40.35122,
+              -20.303576
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "properties": {
+        "id": 22,
+        "nome": "Bento Ferreira",
+        "regiao_id": 3,
+        "regiao": "Região 3 - Jucutuquara",
+        "populacao": 6850,
+        "area_km2": 0.89,
+        "domicilios": 2580,
+        "centroide_lat": -20.3125,
+        "centroide_lng": -40.3095,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.305978,
+              -20.311692
+            ],
+            [
+              -40.307533,
+              -20.30946
+            ],
+            [
+              -40.310441,
+              -20.308895
+            ],
+            [
+              -40.313025,
+              -20.310494
+            ],
+            [
+              -40.31254,
+              -20.313198
+            ],
+            [
+              -40.311209,
+              -20.315142
+            ],
+            [
+              -40.308677,
+              -20.315652
+            ],
+            [
+              -40.3064,
+              -20.314264
+            ],
+            [
+              -40.305978,
+              -20.311692
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "properties": {
+        "id": 23,
+        "nome": "Consolação",
+        "regiao_id": 3,
+        "regiao": "Região 3 - Jucutuquara",
+        "populacao": 4380,
+        "area_km2": 0.42,
+        "domicilios": 1510,
+        "centroide_lat": -20.3048,
+        "centroide_lng": -40.3162,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.313549,
+              -20.303864
+            ],
+            [
+              -40.315266,
+              -20.302867
+            ],
+            [
+              -40.317077,
+              -20.302614
+            ],
+            [
+              -40.318676,
+              -20.303748
+            ],
+            [
+              -40.318212,
+              -20.30551
+            ],
+            [
+              -40.317181,
+              -20.306831
+            ],
+            [
+              -40.315282,
+              -20.307086
+            ],
+            [
+              -40.31362,
+              -20.305896
+            ],
+            [
+              -40.313549,
+              -20.303864
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "properties": {
+        "id": 24,
+        "nome": "Cruzamento",
+        "regiao_id": 3,
+        "regiao": "Região 3 - Jucutuquara",
+        "populacao": 3920,
+        "area_km2": 0.36,
+        "domicilios": 1320,
+        "centroide_lat": -20.3112,
+        "centroide_lng": -40.3268,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.324844,
+              -20.310245
+            ],
+            [
+              -40.326042,
+              -20.308944
+            ],
+            [
+              -40.32777,
+              -20.309454
+            ],
+            [
+              -40.329104,
+              -20.310519
+            ],
+            [
+              -40.328569,
+              -20.312064
+            ],
+            [
+              -40.327495,
+              -20.313267
+            ],
+            [
+              -40.325587,
+              -20.313386
+            ],
+            [
+              -40.324697,
+              -20.311822
+            ],
+            [
+              -40.324844,
+              -20.310245
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "properties": {
+        "id": 25,
+        "nome": "De Lourdes",
+        "regiao_id": 3,
+        "regiao": "Região 3 - Jucutuquara",
+        "populacao": 2910,
+        "area_km2": 0.44,
+        "domicilios": 1020,
+        "centroide_lat": -20.3065,
+        "centroide_lng": -40.3198,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.317017,
+              -20.3065
+            ],
+            [
+              -40.31808,
+              -20.304886
+            ],
+            [
+              -40.3198,
+              -20.303781
+            ],
+            [
+              -40.321603,
+              -20.304809
+            ],
+            [
+              -40.322,
+              -20.3065
+            ],
+            [
+              -40.321685,
+              -20.308268
+            ],
+            [
+              -40.3198,
+              -20.308673
+            ],
+            [
+              -40.317832,
+              -20.308345
+            ],
+            [
+              -40.317017,
+              -20.3065
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "properties": {
+        "id": 26,
+        "nome": "Forte São João",
+        "regiao_id": 3,
+        "regiao": "Região 3 - Jucutuquara",
+        "populacao": 3280,
+        "area_km2": 0.56,
+        "domicilios": 1130,
+        "centroide_lat": -20.3158,
+        "centroide_lng": -40.3255,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.322905,
+              -20.315507
+            ],
+            [
+              -40.323481,
+              -20.313387
+            ],
+            [
+              -40.32586,
+              -20.313
+            ],
+            [
+              -40.327659,
+              -20.314211
+            ],
+            [
+              -40.327964,
+              -20.316079
+            ],
+            [
+              -40.327438,
+              -20.318116
+            ],
+            [
+              -40.325156,
+              -20.318478
+            ],
+            [
+              -40.323444,
+              -20.317313
+            ],
+            [
+              -40.322905,
+              -20.315507
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "properties": {
+        "id": 27,
+        "nome": "Fradinhos",
+        "regiao_id": 3,
+        "regiao": "Região 3 - Jucutuquara",
+        "populacao": 4890,
+        "area_km2": 1.48,
+        "domicilios": 1720,
+        "centroide_lat": -20.3052,
+        "centroide_lng": -40.3315,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.326751,
+              -20.30411
+            ],
+            [
+              -40.329074,
+              -20.301451
+            ],
+            [
+              -40.332561,
+              -20.301135
+            ],
+            [
+              -40.335132,
+              -20.303133
+            ],
+            [
+              -40.335419,
+              -20.3061
+            ],
+            [
+              -40.334258,
+              -20.309463
+            ],
+            [
+              -40.330287,
+              -20.309849
+            ],
+            [
+              -40.32732,
+              -20.307579
+            ],
+            [
+              -40.326751,
+              -20.30411
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "properties": {
+        "id": 28,
+        "nome": "Gurigica",
+        "regiao_id": 3,
+        "regiao": "Região 3 - Jucutuquara",
+        "populacao": 5640,
+        "area_km2": 0.47,
+        "domicilios": 1920,
+        "centroide_lat": -20.3068,
+        "centroide_lng": -40.3135,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.311372,
+              -20.306049
+            ],
+            [
+              -40.312562,
+              -20.304858
+            ],
+            [
+              -40.314301,
+              -20.304804
+            ],
+            [
+              -40.315571,
+              -20.30592
+            ],
+            [
+              -40.315628,
+              -20.307551
+            ],
+            [
+              -40.314438,
+              -20.308742
+            ],
+            [
+              -40.312699,
+              -20.308796
+            ],
+            [
+              -40.311429,
+              -20.30768
+            ],
+            [
+              -40.311372,
+              -20.306049
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "properties": {
+        "id": 29,
+        "nome": "Horto",
+        "regiao_id": 3,
+        "regiao": "Região 3 - Jucutuquara",
+        "populacao": 2760,
+        "area_km2": 0.39,
+        "domicilios": 960,
+        "centroide_lat": -20.3095,
+        "centroide_lng": -40.3152,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.313071,
+              -20.30846
+            ],
+            [
+              -40.314445,
+              -20.307255
+            ],
+            [
+              -40.31641,
+              -20.307321
+            ],
+            [
+              -40.317803,
+              -20.30873
+            ],
+            [
+              -40.317037,
+              -20.310397
+            ],
+            [
+              -40.315856,
+              -20.311451
+            ],
+            [
+              -40.314142,
+              -20.311406
+            ],
+            [
+              -40.312911,
+              -20.310177
+            ],
+            [
+              -40.313071,
+              -20.30846
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "properties": {
+        "id": 30,
+        "nome": "Ilha de Santa Maria",
+        "regiao_id": 3,
+        "regiao": "Região 3 - Jucutuquara",
+        "populacao": 6420,
+        "area_km2": 0.62,
+        "domicilios": 2380,
+        "centroide_lat": -20.3155,
+        "centroide_lng": -40.3168,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.313359,
+              -20.3155
+            ],
+            [
+              -40.314855,
+              -20.313676
+            ],
+            [
+              -40.3168,
+              -20.312662
+            ],
+            [
+              -40.319136,
+              -20.31331
+            ],
+            [
+              -40.319412,
+              -20.3155
+            ],
+            [
+              -40.318842,
+              -20.317415
+            ],
+            [
+              -40.3168,
+              -20.318468
+            ],
+            [
+              -40.314367,
+              -20.317782
+            ],
+            [
+              -40.313359,
+              -20.3155
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "properties": {
+        "id": 31,
+        "nome": "Jesus de Nazareth",
+        "regiao_id": 3,
+        "regiao": "Região 3 - Jucutuquara",
+        "populacao": 4150,
+        "area_km2": 0.54,
+        "domicilios": 1420,
+        "centroide_lat": -20.3165,
+        "centroide_lng": -40.3045,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.301824,
+              -20.316197
+            ],
+            [
+              -40.302597,
+              -20.314226
+            ],
+            [
+              -40.304807,
+              -20.31411
+            ],
+            [
+              -40.306824,
+              -20.31479
+            ],
+            [
+              -40.30692,
+              -20.316774
+            ],
+            [
+              -40.306244,
+              -20.318584
+            ],
+            [
+              -40.304116,
+              -20.31949
+            ],
+            [
+              -40.302379,
+              -20.318061
+            ],
+            [
+              -40.301824,
+              -20.316197
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "properties": {
+        "id": 32,
+        "nome": "Jucutuquara",
+        "regiao_id": 3,
+        "regiao": "Região 3 - Jucutuquara",
+        "populacao": 7540,
+        "area_km2": 0.78,
+        "domicilios": 2790,
+        "centroide_lat": -20.3092,
+        "centroide_lng": -40.3225,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.318901,
+              -20.308374
+            ],
+            [
+              -40.320819,
+              -20.306603
+            ],
+            [
+              -40.323418,
+              -20.305684
+            ],
+            [
+              -40.325402,
+              -20.307548
+            ],
+            [
+              -40.325345,
+              -20.309853
+            ],
+            [
+              -40.324341,
+              -20.312046
+            ],
+            [
+              -40.321767,
+              -20.31201
+            ],
+            [
+              -40.319333,
+              -20.311002
+            ],
+            [
+              -40.318901,
+              -20.308374
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "properties": {
+        "id": 33,
+        "nome": "Monte Belo",
+        "regiao_id": 3,
+        "regiao": "Região 3 - Jucutuquara",
+        "populacao": 3190,
+        "area_km2": 0.37,
+        "domicilios": 1150,
+        "centroide_lat": -20.3138,
+        "centroide_lng": -40.3132,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.311212,
+              -20.313098
+            ],
+            [
+              -40.312103,
+              -20.311529
+            ],
+            [
+              -40.314061,
+              -20.311654
+            ],
+            [
+              -40.315232,
+              -20.312936
+            ],
+            [
+              -40.315088,
+              -20.314467
+            ],
+            [
+              -40.314253,
+              -20.31598
+            ],
+            [
+              -40.312376,
+              -20.315852
+            ],
+            [
+              -40.311265,
+              -20.314622
+            ],
+            [
+              -40.311212,
+              -20.313098
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "properties": {
+        "id": 34,
+        "nome": "Nazareth",
+        "regiao_id": 3,
+        "regiao": "Região 3 - Jucutuquara",
+        "populacao": 2340,
+        "area_km2": 0.28,
+        "domicilios": 860,
+        "centroide_lat": -20.3098,
+        "centroide_lng": -40.3185,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.316357,
+              -20.308754
+            ],
+            [
+              -40.317805,
+              -20.307733
+            ],
+            [
+              -40.319518,
+              -20.307966
+            ],
+            [
+              -40.320502,
+              -20.309208
+            ],
+            [
+              -40.320269,
+              -20.310664
+            ],
+            [
+              -40.31929,
+              -20.31215
+            ],
+            [
+              -40.317335,
+              -20.311898
+            ],
+            [
+              -40.316196,
+              -20.310481
+            ],
+            [
+              -40.316357,
+              -20.308754
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "properties": {
+        "id": 35,
+        "nome": "Romão",
+        "regiao_id": 3,
+        "regiao": "Região 3 - Jucutuquara",
+        "populacao": 5210,
+        "area_km2": 0.59,
+        "domicilios": 1760,
+        "centroide_lat": -20.3132,
+        "centroide_lng": -40.3302,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.327652,
+              -20.3132
+            ],
+            [
+              -40.328398,
+              -20.31151
+            ],
+            [
+              -40.3302,
+              -20.310811
+            ],
+            [
+              -40.332002,
+              -20.31151
+            ],
+            [
+              -40.332748,
+              -20.3132
+            ],
+            [
+              -40.332002,
+              -20.31489
+            ],
+            [
+              -40.3302,
+              -20.315589
+            ],
+            [
+              -40.328398,
+              -20.31489
+            ],
+            [
+              -40.327652,
+              -20.3132
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "properties": {
+        "id": 36,
+        "nome": "Andorinhas",
+        "regiao_id": 4,
+        "regiao": "Região 4 - Maruípe",
+        "populacao": 5840,
+        "area_km2": 0.64,
+        "domicilios": 2010,
+        "centroide_lat": -20.2862,
+        "centroide_lng": -40.3088,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.305748,
+              -20.285855
+            ],
+            [
+              -40.306815,
+              -20.283828
+            ],
+            [
+              -40.309202,
+              -20.283075
+            ],
+            [
+              -40.31155,
+              -20.284176
+            ],
+            [
+              -40.311434,
+              -20.286498
+            ],
+            [
+              -40.310525,
+              -20.288261
+            ],
+            [
+              -40.308449,
+              -20.288932
+            ],
+            [
+              -40.306381,
+              -20.28798
+            ],
+            [
+              -40.305748,
+              -20.285855
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "properties": {
+        "id": 37,
+        "nome": "Bonfim",
+        "regiao_id": 4,
+        "regiao": "Região 4 - Maruípe",
+        "populacao": 6120,
+        "area_km2": 0.58,
+        "domicilios": 2110,
+        "centroide_lat": -20.2995,
+        "centroide_lng": -40.3138,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.310567,
+              -20.298758
+            ],
+            [
+              -40.31242,
+              -20.297367
+            ],
+            [
+              -40.314496,
+              -20.296833
+            ],
+            [
+              -40.316531,
+              -20.297946
+            ],
+            [
+              -40.316253,
+              -20.300063
+            ],
+            [
+              -40.315249,
+              -20.30174
+            ],
+            [
+              -40.313072,
+              -20.302288
+            ],
+            [
+              -40.310955,
+              -20.301119
+            ],
+            [
+              -40.310567,
+              -20.298758
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "properties": {
+        "id": 38,
+        "nome": "Da Penha",
+        "regiao_id": 4,
+        "regiao": "Região 4 - Maruípe",
+        "populacao": 5490,
+        "area_km2": 0.51,
+        "domicilios": 1890,
+        "centroide_lat": -20.2975,
+        "centroide_lng": -40.3105,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.308049,
+              -20.296635
+            ],
+            [
+              -40.309264,
+              -20.294941
+            ],
+            [
+              -40.311379,
+              -20.295311
+            ],
+            [
+              -40.313114,
+              -20.296389
+            ],
+            [
+              -40.312717,
+              -20.298283
+            ],
+            [
+              -40.311633,
+              -20.299845
+            ],
+            [
+              -40.309401,
+              -20.300239
+            ],
+            [
+              -40.308114,
+              -20.298514
+            ],
+            [
+              -40.308049,
+              -20.296635
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "properties": {
+        "id": 39,
+        "nome": "Itararé",
+        "regiao_id": 4,
+        "regiao": "Região 4 - Maruípe",
+        "populacao": 8920,
+        "area_km2": 0.72,
+        "domicilios": 3120,
+        "centroide_lat": -20.2932,
+        "centroide_lng": -40.3085,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.305343,
+              -20.291658
+            ],
+            [
+              -40.307564,
+              -20.290416
+            ],
+            [
+              -40.310212,
+              -20.290115
+            ],
+            [
+              -40.31161,
+              -20.29228
+            ],
+            [
+              -40.310996,
+              -20.294419
+            ],
+            [
+              -40.309525,
+              -20.29625
+            ],
+            [
+              -40.307132,
+              -20.295665
+            ],
+            [
+              -40.305106,
+              -20.294204
+            ],
+            [
+              -40.305343,
+              -20.291658
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "properties": {
+        "id": 40,
+        "nome": "Joana d'Arc",
+        "regiao_id": 4,
+        "regiao": "Região 4 - Maruípe",
+        "populacao": 4180,
+        "area_km2": 0.49,
+        "domicilios": 1440,
+        "centroide_lat": -20.2868,
+        "centroide_lng": -40.3185,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.316056,
+              -20.2868
+            ],
+            [
+              -40.316337,
+              -20.284771
+            ],
+            [
+              -40.3185,
+              -20.284161
+            ],
+            [
+              -40.320315,
+              -20.285097
+            ],
+            [
+              -40.320821,
+              -20.2868
+            ],
+            [
+              -40.320576,
+              -20.288747
+            ],
+            [
+              -40.3185,
+              -20.289323
+            ],
+            [
+              -40.316772,
+              -20.288421
+            ],
+            [
+              -40.316056,
+              -20.2868
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "properties": {
+        "id": 41,
+        "nome": "Maruípe",
+        "regiao_id": 4,
+        "regiao": "Região 4 - Maruípe",
+        "populacao": 7850,
+        "area_km2": 0.85,
+        "domicilios": 2780,
+        "centroide_lat": -20.2948,
+        "centroide_lng": -40.3175,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.313821,
+              -20.294384
+            ],
+            [
+              -40.315312,
+              -20.292186
+            ],
+            [
+              -40.317905,
+              -20.291651
+            ],
+            [
+              -40.320033,
+              -20.292936
+            ],
+            [
+              -40.320536,
+              -20.295143
+            ],
+            [
+              -40.319987,
+              -20.297773
+            ],
+            [
+              -40.317037,
+              -20.298401
+            ],
+            [
+              -40.314585,
+              -20.296945
+            ],
+            [
+              -40.313821,
+              -20.294384
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "properties": {
+        "id": 42,
+        "nome": "Santa Cecília",
+        "regiao_id": 4,
+        "regiao": "Região 4 - Maruípe",
+        "populacao": 3240,
+        "area_km2": 0.36,
+        "domicilios": 1180,
+        "centroide_lat": -20.3018,
+        "centroide_lng": -40.3195,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.317563,
+              -20.301355
+            ],
+            [
+              -40.318466,
+              -20.300201
+            ],
+            [
+              -40.319974,
+              -20.299984
+            ],
+            [
+              -40.321205,
+              -20.30083
+            ],
+            [
+              -40.321437,
+              -20.302245
+            ],
+            [
+              -40.320534,
+              -20.303399
+            ],
+            [
+              -40.319026,
+              -20.303616
+            ],
+            [
+              -40.317795,
+              -20.30277
+            ],
+            [
+              -40.317563,
+              -20.301355
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "properties": {
+        "id": 43,
+        "nome": "Santa Martha",
+        "regiao_id": 4,
+        "regiao": "Região 4 - Maruípe",
+        "populacao": 5920,
+        "area_km2": 0.61,
+        "domicilios": 2040,
+        "centroide_lat": -20.2885,
+        "centroide_lng": -40.3145,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.311691,
+              -20.287508
+            ],
+            [
+              -40.313205,
+              -20.285818
+            ],
+            [
+              -40.315654,
+              -20.285624
+            ],
+            [
+              -40.317609,
+              -20.287179
+            ],
+            [
+              -40.316924,
+              -20.289356
+            ],
+            [
+              -40.315626,
+              -20.29083
+            ],
+            [
+              -40.313491,
+              -20.291015
+            ],
+            [
+              -40.311766,
+              -20.289662
+            ],
+            [
+              -40.311691,
+              -20.287508
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "properties": {
+        "id": 44,
+        "nome": "Santos Dumont",
+        "regiao_id": 4,
+        "regiao": "Região 4 - Maruípe",
+        "populacao": 4650,
+        "area_km2": 0.48,
+        "domicilios": 1620,
+        "centroide_lat": -20.3025,
+        "centroide_lng": -40.3228,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.320114,
+              -20.301189
+            ],
+            [
+              -40.322073,
+              -20.300336
+            ],
+            [
+              -40.32403,
+              -20.300285
+            ],
+            [
+              -40.325572,
+              -20.30168
+            ],
+            [
+              -40.324838,
+              -20.303495
+            ],
+            [
+              -40.323564,
+              -20.304773
+            ],
+            [
+              -40.321514,
+              -20.304816
+            ],
+            [
+              -40.319912,
+              -20.303354
+            ],
+            [
+              -40.320114,
+              -20.301189
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "properties": {
+        "id": 45,
+        "nome": "São Benedito",
+        "regiao_id": 4,
+        "regiao": "Região 4 - Maruípe",
+        "populacao": 3180,
+        "area_km2": 0.29,
+        "domicilios": 1090,
+        "centroide_lat": -20.2972,
+        "centroide_lng": -40.3155,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.313295,
+              -20.2972
+            ],
+            [
+              -40.313717,
+              -20.295528
+            ],
+            [
+              -40.3155,
+              -20.295231
+            ],
+            [
+              -40.317208,
+              -20.295598
+            ],
+            [
+              -40.317494,
+              -20.2972
+            ],
+            [
+              -40.317134,
+              -20.298732
+            ],
+            [
+              -40.3155,
+              -20.299664
+            ],
+            [
+              -40.313941,
+              -20.298662
+            ],
+            [
+              -40.313295,
+              -20.2972
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "properties": {
+        "id": 46,
+        "nome": "São Cristóvão",
+        "regiao_id": 4,
+        "regiao": "Região 4 - Maruípe",
+        "populacao": 6480,
+        "area_km2": 0.74,
+        "domicilios": 2250,
+        "centroide_lat": -20.2918,
+        "centroide_lng": -40.3225,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.318918,
+              -20.291395
+            ],
+            [
+              -40.320552,
+              -20.289472
+            ],
+            [
+              -40.32295,
+              -20.288299
+            ],
+            [
+              -40.325101,
+              -20.289886
+            ],
+            [
+              -40.325332,
+              -20.29212
+            ],
+            [
+              -40.324634,
+              -20.294351
+            ],
+            [
+              -40.32214,
+              -20.294597
+            ],
+            [
+              -40.319662,
+              -20.293889
+            ],
+            [
+              -40.318918,
+              -20.291395
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "properties": {
+        "id": 47,
+        "nome": "Tabuazeiro",
+        "regiao_id": 4,
+        "regiao": "Região 4 - Maruípe",
+        "populacao": 7120,
+        "area_km2": 0.82,
+        "domicilios": 2490,
+        "centroide_lat": -20.2952,
+        "centroide_lng": -40.3258,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.322728,
+              -20.294495
+            ],
+            [
+              -40.323747,
+              -20.292027
+            ],
+            [
+              -40.326665,
+              -20.291884
+            ],
+            [
+              -40.328639,
+              -20.293584
+            ],
+            [
+              -40.328717,
+              -20.29587
+            ],
+            [
+              -40.32777,
+              -20.298246
+            ],
+            [
+              -40.324973,
+              -20.298371
+            ],
+            [
+              -40.323097,
+              -20.296739
+            ],
+            [
+              -40.322728,
+              -20.294495
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "properties": {
+        "id": 48,
+        "nome": "Barro Vermelho",
+        "regiao_id": 5,
+        "regiao": "Região 5 - Praia do Canto",
+        "populacao": 6540,
+        "area_km2": 0.68,
+        "domicilios": 2480,
+        "centroide_lat": -20.2935,
+        "centroide_lng": -40.2995,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.296398,
+              -20.292405
+            ],
+            [
+              -40.298192,
+              -20.290792
+            ],
+            [
+              -40.300565,
+              -20.290845
+            ],
+            [
+              -40.302123,
+              -20.292385
+            ],
+            [
+              -40.30206,
+              -20.294404
+            ],
+            [
+              -40.300987,
+              -20.296579
+            ],
+            [
+              -40.298282,
+              -20.296536
+            ],
+            [
+              -40.296481,
+              -20.294783
+            ],
+            [
+              -40.296398,
+              -20.292405
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "properties": {
+        "id": 49,
+        "nome": "Enseada do Suá",
+        "regiao_id": 5,
+        "regiao": "Região 5 - Praia do Canto",
+        "populacao": 4980,
+        "area_km2": 1.45,
+        "domicilios": 1950,
+        "centroide_lat": -20.3125,
+        "centroide_lng": -40.2895,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.285957,
+              -20.31077
+            ],
+            [
+              -40.288299,
+              -20.308928
+            ],
+            [
+              -40.291344,
+              -20.309178
+            ],
+            [
+              -40.293309,
+              -20.311374
+            ],
+            [
+              -40.293043,
+              -20.31423
+            ],
+            [
+              -40.290701,
+              -20.316072
+            ],
+            [
+              -40.287656,
+              -20.315822
+            ],
+            [
+              -40.285691,
+              -20.313626
+            ],
+            [
+              -40.285957,
+              -20.31077
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "properties": {
+        "id": 50,
+        "nome": "Ilha do Boi",
+        "regiao_id": 5,
+        "regiao": "Região 5 - Praia do Canto",
+        "populacao": 1480,
+        "area_km2": 0.65,
+        "domicilios": 520,
+        "centroide_lat": -20.3112,
+        "centroide_lng": -40.2815,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.278401,
+              -20.3112
+            ],
+            [
+              -40.279209,
+              -20.309051
+            ],
+            [
+              -40.2815,
+              -20.308028
+            ],
+            [
+              -40.283992,
+              -20.308863
+            ],
+            [
+              -40.284174,
+              -20.3112
+            ],
+            [
+              -40.283491,
+              -20.313067
+            ],
+            [
+              -40.2815,
+              -20.313973
+            ],
+            [
+              -40.279309,
+              -20.313255
+            ],
+            [
+              -40.278401,
+              -20.3112
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "properties": {
+        "id": 51,
+        "nome": "Ilha do Frade",
+        "regiao_id": 5,
+        "regiao": "Região 5 - Praia do Canto",
+        "populacao": 1120,
+        "area_km2": 0.48,
+        "domicilios": 410,
+        "centroide_lat": -20.3025,
+        "centroide_lng": -40.2828,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.279794,
+              -20.30216
+            ],
+            [
+              -40.281306,
+              -20.300715
+            ],
+            [
+              -40.283119,
+              -20.300021
+            ],
+            [
+              -40.285086,
+              -20.300817
+            ],
+            [
+              -40.285081,
+              -20.302758
+            ],
+            [
+              -40.284369,
+              -20.304375
+            ],
+            [
+              -40.282467,
+              -20.305093
+            ],
+            [
+              -40.280418,
+              -20.304253
+            ],
+            [
+              -40.279794,
+              -20.30216
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "properties": {
+        "id": 52,
+        "nome": "Praia do Canto",
+        "regiao_id": 5,
+        "regiao": "Região 5 - Praia do Canto",
+        "populacao": 16890,
+        "area_km2": 1.38,
+        "domicilios": 6840,
+        "centroide_lat": -20.2965,
+        "centroide_lng": -40.2925,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.288315,
+              -20.295539
+            ],
+            [
+              -40.289944,
+              -20.292549
+            ],
+            [
+              -40.293475,
+              -20.292763
+            ],
+            [
+              -40.296536,
+              -20.294203
+            ],
+            [
+              -40.296284,
+              -20.297369
+            ],
+            [
+              -40.294842,
+              -20.30012
+            ],
+            [
+              -40.29128,
+              -20.301177
+            ],
+            [
+              -40.288816,
+              -20.298596
+            ],
+            [
+              -40.288315,
+              -20.295539
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "properties": {
+        "id": 53,
+        "nome": "Praia do Suá",
+        "regiao_id": 5,
+        "regiao": "Região 5 - Praia do Canto",
+        "populacao": 5420,
+        "area_km2": 0.56,
+        "domicilios": 2010,
+        "centroide_lat": -20.3095,
+        "centroide_lng": -40.2995,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.296562,
+              -20.308463
+            ],
+            [
+              -40.298367,
+              -20.307155
+            ],
+            [
+              -40.300652,
+              -20.306629
+            ],
+            [
+              -40.30212,
+              -20.308387
+            ],
+            [
+              -40.301823,
+              -20.31032
+            ],
+            [
+              -40.300741,
+              -20.312069
+            ],
+            [
+              -40.298579,
+              -20.311794
+            ],
+            [
+              -40.296641,
+              -20.310715
+            ],
+            [
+              -40.296562,
+              -20.308463
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "properties": {
+        "id": 54,
+        "nome": "Santa Helena",
+        "regiao_id": 5,
+        "regiao": "Região 5 - Praia do Canto",
+        "populacao": 2840,
+        "area_km2": 0.34,
+        "domicilios": 1080,
+        "centroide_lat": -20.3045,
+        "centroide_lng": -40.2962,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.294338,
+              -20.303591
+            ],
+            [
+              -40.29541,
+              -20.30215
+            ],
+            [
+              -40.297316,
+              -20.30249
+            ],
+            [
+              -40.298303,
+              -20.303878
+            ],
+            [
+              -40.297969,
+              -20.305364
+            ],
+            [
+              -40.296958,
+              -20.306756
+            ],
+            [
+              -40.295133,
+              -20.306422
+            ],
+            [
+              -40.294198,
+              -20.305092
+            ],
+            [
+              -40.294338,
+              -20.303591
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "properties": {
+        "id": 55,
+        "nome": "Santa Lúcia",
+        "regiao_id": 5,
+        "regiao": "Região 5 - Praia do Canto",
+        "populacao": 5920,
+        "area_km2": 0.72,
+        "domicilios": 2290,
+        "centroide_lat": -20.2995,
+        "centroide_lng": -40.3025,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.29909,
+              -20.2995
+            ],
+            [
+              -40.300194,
+              -20.297337
+            ],
+            [
+              -40.3025,
+              -20.296581
+            ],
+            [
+              -40.304595,
+              -20.297535
+            ],
+            [
+              -40.305314,
+              -20.2995
+            ],
+            [
+              -40.305122,
+              -20.301959
+            ],
+            [
+              -40.3025,
+              -20.302838
+            ],
+            [
+              -40.300089,
+              -20.301762
+            ],
+            [
+              -40.29909,
+              -20.2995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "properties": {
+        "id": 56,
+        "nome": "Santa Luíza",
+        "regiao_id": 5,
+        "regiao": "Região 5 - Praia do Canto",
+        "populacao": 4380,
+        "area_km2": 0.49,
+        "domicilios": 1650,
+        "centroide_lat": -20.2912,
+        "centroide_lng": -40.3038,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.301495,
+              -20.290939
+            ],
+            [
+              -40.302367,
+              -20.289487
+            ],
+            [
+              -40.304078,
+              -20.289038
+            ],
+            [
+              -40.305626,
+              -20.289856
+            ],
+            [
+              -40.306105,
+              -20.291461
+            ],
+            [
+              -40.305233,
+              -20.292913
+            ],
+            [
+              -40.303522,
+              -20.293362
+            ],
+            [
+              -40.301974,
+              -20.292544
+            ],
+            [
+              -40.301495,
+              -20.290939
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "properties": {
+        "id": 57,
+        "nome": "Aeroporto",
+        "regiao_id": 6,
+        "regiao": "Região 6 - Goiabeiras",
+        "populacao": 1240,
+        "area_km2": 5.42,
+        "domicilios": 450,
+        "centroide_lat": -20.2585,
+        "centroide_lng": -40.2865,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.277831,
+              -20.25651
+            ],
+            [
+              -40.281659,
+              -20.251015
+            ],
+            [
+              -40.288815,
+              -20.249624
+            ],
+            [
+              -40.295176,
+              -20.253561
+            ],
+            [
+              -40.293981,
+              -20.260217
+            ],
+            [
+              -40.290707,
+              -20.265004
+            ],
+            [
+              -40.284476,
+              -20.266261
+            ],
+            [
+              -40.27887,
+              -20.262843
+            ],
+            [
+              -40.277831,
+              -20.25651
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "properties": {
+        "id": 58,
+        "nome": "Antônio Honório",
+        "regiao_id": 6,
+        "regiao": "Região 6 - Goiabeiras",
+        "populacao": 4520,
+        "area_km2": 0.54,
+        "domicilios": 1590,
+        "centroide_lat": -20.2645,
+        "centroide_lng": -40.3015,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.298495,
+              -20.263439
+            ],
+            [
+              -40.300441,
+              -20.262308
+            ],
+            [
+              -40.302495,
+              -20.262021
+            ],
+            [
+              -40.304307,
+              -20.263307
+            ],
+            [
+              -40.30378,
+              -20.265305
+            ],
+            [
+              -40.302612,
+              -20.266803
+            ],
+            [
+              -40.30046,
+              -20.267092
+            ],
+            [
+              -40.298575,
+              -20.265743
+            ],
+            [
+              -40.298495,
+              -20.263439
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "properties": {
+        "id": 59,
+        "nome": "Goiabeiras",
+        "regiao_id": 6,
+        "regiao": "Região 6 - Goiabeiras",
+        "populacao": 9840,
+        "area_km2": 1.65,
+        "domicilios": 3480,
+        "centroide_lat": -20.2715,
+        "centroide_lng": -40.3028,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.298622,
+              -20.269459
+            ],
+            [
+              -40.30118,
+              -20.26668
+            ],
+            [
+              -40.304871,
+              -20.267768
+            ],
+            [
+              -40.307723,
+              -20.270044
+            ],
+            [
+              -40.306578,
+              -20.273345
+            ],
+            [
+              -40.304284,
+              -20.275916
+            ],
+            [
+              -40.300208,
+              -20.27617
+            ],
+            [
+              -40.298307,
+              -20.272829
+            ],
+            [
+              -40.298622,
+              -20.269459
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "properties": {
+        "id": 60,
+        "nome": "Jabour",
+        "regiao_id": 6,
+        "regiao": "Região 6 - Goiabeiras",
+        "populacao": 5680,
+        "area_km2": 0.68,
+        "domicilios": 2040,
+        "centroide_lat": -20.2672,
+        "centroide_lng": -40.2975,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.294042,
+              -20.2672
+            ],
+            [
+              -40.295362,
+              -20.265194
+            ],
+            [
+              -40.2975,
+              -20.26382
+            ],
+            [
+              -40.299741,
+              -20.265098
+            ],
+            [
+              -40.300234,
+              -20.2672
+            ],
+            [
+              -40.299843,
+              -20.269398
+            ],
+            [
+              -40.2975,
+              -20.269901
+            ],
+            [
+              -40.295055,
+              -20.269494
+            ],
+            [
+              -40.294042,
+              -20.2672
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "properties": {
+        "id": 61,
+        "nome": "Maria Ortiz",
+        "regiao_id": 6,
+        "regiao": "Região 6 - Goiabeiras",
+        "populacao": 12450,
+        "area_km2": 1.12,
+        "domicilios": 4390,
+        "centroide_lat": -20.2562,
+        "centroide_lng": -40.2995,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.295832,
+              -20.255785
+            ],
+            [
+              -40.296645,
+              -20.252788
+            ],
+            [
+              -40.300009,
+              -20.25224
+            ],
+            [
+              -40.302553,
+              -20.253952
+            ],
+            [
+              -40.302984,
+              -20.256594
+            ],
+            [
+              -40.30224,
+              -20.259475
+            ],
+            [
+              -40.299013,
+              -20.259987
+            ],
+            [
+              -40.296593,
+              -20.25834
+            ],
+            [
+              -40.295832,
+              -20.255785
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "properties": {
+        "id": 62,
+        "nome": "Segurança do Lar",
+        "regiao_id": 6,
+        "regiao": "Região 6 - Goiabeiras",
+        "populacao": 2380,
+        "area_km2": 0.35,
+        "domicilios": 850,
+        "centroide_lat": -20.2615,
+        "centroide_lng": -40.2962,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.293854,
+              -20.260961
+            ],
+            [
+              -40.295002,
+              -20.259647
+            ],
+            [
+              -40.296724,
+              -20.259491
+            ],
+            [
+              -40.297994,
+              -20.260479
+            ],
+            [
+              -40.298136,
+              -20.261945
+            ],
+            [
+              -40.297563,
+              -20.263607
+            ],
+            [
+              -40.295601,
+              -20.263797
+            ],
+            [
+              -40.294135,
+              -20.262676
+            ],
+            [
+              -40.293854,
+              -20.260961
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "properties": {
+        "id": 63,
+        "nome": "Solon Borges",
+        "regiao_id": 6,
+        "regiao": "Região 6 - Goiabeiras",
+        "populacao": 2890,
+        "area_km2": 0.38,
+        "domicilios": 1020,
+        "centroide_lat": -20.2598,
+        "centroide_lng": -40.2988,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.296887,
+              -20.259124
+            ],
+            [
+              -40.297956,
+              -20.258053
+            ],
+            [
+              -40.29952,
+              -20.258005
+            ],
+            [
+              -40.300662,
+              -20.259009
+            ],
+            [
+              -40.300713,
+              -20.260476
+            ],
+            [
+              -40.299644,
+              -20.261547
+            ],
+            [
+              -40.29808,
+              -20.261595
+            ],
+            [
+              -40.296938,
+              -20.260591
+            ],
+            [
+              -40.296887,
+              -20.259124
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "properties": {
+        "id": 64,
+        "nome": "Comdusa",
+        "regiao_id": 7,
+        "regiao": "Região 7 - São Pedro",
+        "populacao": 2410,
+        "area_km2": 0.31,
+        "domicilios": 830,
+        "centroide_lat": -20.2852,
+        "centroide_lng": -40.3358,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.333751,
+              -20.284199
+            ],
+            [
+              -40.335074,
+              -20.283039
+            ],
+            [
+              -40.336964,
+              -20.283102
+            ],
+            [
+              -40.338305,
+              -20.284459
+            ],
+            [
+              -40.337568,
+              -20.286064
+            ],
+            [
+              -40.336431,
+              -20.287078
+            ],
+            [
+              -40.334782,
+              -20.287034
+            ],
+            [
+              -40.333597,
+              -20.285852
+            ],
+            [
+              -40.333751,
+              -20.284199
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "properties": {
+        "id": 65,
+        "nome": "Conquista",
+        "regiao_id": 7,
+        "regiao": "Região 7 - São Pedro",
+        "populacao": 5420,
+        "area_km2": 0.72,
+        "domicilios": 1860,
+        "centroide_lat": -20.2695,
+        "centroide_lng": -40.3342,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.330492,
+              -20.2695
+            ],
+            [
+              -40.332105,
+              -20.267535
+            ],
+            [
+              -40.3342,
+              -20.266441
+            ],
+            [
+              -40.336716,
+              -20.26714
+            ],
+            [
+              -40.337014,
+              -20.2695
+            ],
+            [
+              -40.3364,
+              -20.271564
+            ],
+            [
+              -40.3342,
+              -20.272698
+            ],
+            [
+              -40.331578,
+              -20.271959
+            ],
+            [
+              -40.330492,
+              -20.2695
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "properties": {
+        "id": 66,
+        "nome": "Ilha das Caieiras",
+        "regiao_id": 7,
+        "regiao": "Região 7 - São Pedro",
+        "populacao": 4890,
+        "area_km2": 0.65,
+        "domicilios": 1690,
+        "centroide_lat": -20.2798,
+        "centroide_lng": -40.3385,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.335565,
+              -20.279468
+            ],
+            [
+              -40.336412,
+              -20.277305
+            ],
+            [
+              -40.338837,
+              -20.277178
+            ],
+            [
+              -40.341049,
+              -20.277924
+            ],
+            [
+              -40.341154,
+              -20.2801
+            ],
+            [
+              -40.340413,
+              -20.282086
+            ],
+            [
+              -40.338078,
+              -20.283081
+            ],
+            [
+              -40.336174,
+              -20.281512
+            ],
+            [
+              -40.335565,
+              -20.279468
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "properties": {
+        "id": 67,
+        "nome": "Nova Palestina",
+        "regiao_id": 7,
+        "regiao": "Região 7 - São Pedro",
+        "populacao": 6780,
+        "area_km2": 0.89,
+        "domicilios": 2310,
+        "centroide_lat": -20.2655,
+        "centroide_lng": -40.3368,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.332957,
+              -20.264618
+            ],
+            [
+              -40.335005,
+              -20.262726
+            ],
+            [
+              -40.33778,
+              -20.261744
+            ],
+            [
+              -40.339899,
+              -20.263736
+            ],
+            [
+              -40.339839,
+              -20.266198
+            ],
+            [
+              -40.338766,
+              -20.26854
+            ],
+            [
+              -40.336017,
+              -20.268501
+            ],
+            [
+              -40.333418,
+              -20.267425
+            ],
+            [
+              -40.332957,
+              -20.264618
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "properties": {
+        "id": 68,
+        "nome": "Redenção",
+        "regiao_id": 7,
+        "regiao": "Região 7 - São Pedro",
+        "populacao": 4950,
+        "area_km2": 0.56,
+        "domicilios": 1710,
+        "centroide_lat": -20.2735,
+        "centroide_lng": -40.3335,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.331055,
+              -20.272637
+            ],
+            [
+              -40.332151,
+              -20.270706
+            ],
+            [
+              -40.334559,
+              -20.27086
+            ],
+            [
+              -40.336,
+              -20.272438
+            ],
+            [
+              -40.335822,
+              -20.27432
+            ],
+            [
+              -40.334795,
+              -20.276182
+            ],
+            [
+              -40.332487,
+              -20.276025
+            ],
+            [
+              -40.33112,
+              -20.274512
+            ],
+            [
+              -40.331055,
+              -20.272637
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "properties": {
+        "id": 69,
+        "nome": "Resistência",
+        "regiao_id": 7,
+        "regiao": "Região 7 - São Pedro",
+        "populacao": 8120,
+        "area_km2": 1.15,
+        "domicilios": 2790,
+        "centroide_lat": -20.2768,
+        "centroide_lng": -40.3285,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.324678,
+              -20.274933
+            ],
+            [
+              -40.327261,
+              -20.273113
+            ],
+            [
+              -40.330316,
+              -20.273528
+            ],
+            [
+              -40.332071,
+              -20.275744
+            ],
+            [
+              -40.331654,
+              -20.27834
+            ],
+            [
+              -40.329909,
+              -20.280992
+            ],
+            [
+              -40.326423,
+              -20.280542
+            ],
+            [
+              -40.32439,
+              -20.278015
+            ],
+            [
+              -40.324678,
+              -20.274933
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 70,
+      "properties": {
+        "id": 70,
+        "nome": "Santo André",
+        "regiao_id": 7,
+        "regiao": "Região 7 - São Pedro",
+        "populacao": 5640,
+        "area_km2": 0.59,
+        "domicilios": 1940,
+        "centroide_lat": -20.2785,
+        "centroide_lng": -40.3342,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.331653,
+              -20.2785
+            ],
+            [
+              -40.332399,
+              -20.27681
+            ],
+            [
+              -40.3342,
+              -20.276111
+            ],
+            [
+              -40.336001,
+              -20.27681
+            ],
+            [
+              -40.336747,
+              -20.2785
+            ],
+            [
+              -40.336001,
+              -20.28019
+            ],
+            [
+              -40.3342,
+              -20.280889
+            ],
+            [
+              -40.332399,
+              -20.28019
+            ],
+            [
+              -40.331653,
+              -20.2785
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71,
+      "properties": {
+        "id": 71,
+        "nome": "Santos Reis",
+        "regiao_id": 7,
+        "regiao": "Região 7 - São Pedro",
+        "populacao": 3920,
+        "area_km2": 0.44,
+        "domicilios": 1350,
+        "centroide_lat": -20.2835,
+        "centroide_lng": -40.3372,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.334669,
+              -20.283214
+            ],
+            [
+              -40.335554,
+              -20.281533
+            ],
+            [
+              -40.337533,
+              -20.280909
+            ],
+            [
+              -40.33948,
+              -20.281821
+            ],
+            [
+              -40.339384,
+              -20.283747
+            ],
+            [
+              -40.33863,
+              -20.285209
+            ],
+            [
+              -40.336909,
+              -20.285765
+            ],
+            [
+              -40.335195,
+              -20.284976
+            ],
+            [
+              -40.334669,
+              -20.283214
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 72,
+      "properties": {
+        "id": 72,
+        "nome": "São José",
+        "regiao_id": 7,
+        "regiao": "Região 7 - São Pedro",
+        "populacao": 3780,
+        "area_km2": 0.41,
+        "domicilios": 1310,
+        "centroide_lat": -20.2812,
+        "centroide_lng": -40.3355,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.332782,
+              -20.280576
+            ],
+            [
+              -40.33434,
+              -20.279407
+            ],
+            [
+              -40.336085,
+              -20.278958
+            ],
+            [
+              -40.337796,
+              -20.279893
+            ],
+            [
+              -40.337563,
+              -20.281673
+            ],
+            [
+              -40.336718,
+              -20.283083
+            ],
+            [
+              -40.334888,
+              -20.283544
+            ],
+            [
+              -40.333108,
+              -20.282561
+            ],
+            [
+              -40.332782,
+              -20.280576
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 73,
+      "properties": {
+        "id": 73,
+        "nome": "São Pedro",
+        "regiao_id": 7,
+        "regiao": "Região 7 - São Pedro",
+        "populacao": 9450,
+        "area_km2": 0.98,
+        "domicilios": 3290,
+        "centroide_lat": -20.2868,
+        "centroide_lng": -40.3332,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.329802,
+              -20.2856
+            ],
+            [
+              -40.331486,
+              -20.283253
+            ],
+            [
+              -40.334418,
+              -20.283765
+            ],
+            [
+              -40.336824,
+              -20.28526
+            ],
+            [
+              -40.336273,
+              -20.287885
+            ],
+            [
+              -40.33477,
+              -20.29005
+            ],
+            [
+              -40.331676,
+              -20.290597
+            ],
+            [
+              -40.329893,
+              -20.288205
+            ],
+            [
+              -40.329802,
+              -20.2856
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 74,
+      "properties": {
+        "id": 74,
+        "nome": "Jardim Camburi",
+        "regiao_id": 8,
+        "regiao": "Região 8 - Jardim Camburi",
+        "populacao": 46580,
+        "area_km2": 4.12,
+        "domicilios": 18420,
+        "centroide_lat": -20.2588,
+        "centroide_lng": -40.2685,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.26095,
+              -20.255113
+            ],
+            [
+              -40.266262,
+              -20.252141
+            ],
+            [
+              -40.272595,
+              -20.251421
+            ],
+            [
+              -40.275938,
+              -20.2566
+            ],
+            [
+              -40.27447,
+              -20.261716
+            ],
+            [
+              -40.270952,
+              -20.266097
+            ],
+            [
+              -40.265228,
+              -20.264697
+            ],
+            [
+              -40.260382,
+              -20.261201
+            ],
+            [
+              -40.26095,
+              -20.255113
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "properties": {
+        "id": 75,
+        "nome": "Boa Vista",
+        "regiao_id": 9,
+        "regiao": "Região 9 - Jardim da Penha",
+        "populacao": 2840,
+        "area_km2": 0.42,
+        "domicilios": 1020,
+        "centroide_lat": -20.2735,
+        "centroide_lng": -40.2995,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.297237,
+              -20.2735
+            ],
+            [
+              -40.297498,
+              -20.271622
+            ],
+            [
+              -40.2995,
+              -20.271057
+            ],
+            [
+              -40.301181,
+              -20.271924
+            ],
+            [
+              -40.301649,
+              -20.2735
+            ],
+            [
+              -40.301422,
+              -20.275303
+            ],
+            [
+              -40.2995,
+              -20.275836
+            ],
+            [
+              -40.2979,
+              -20.275001
+            ],
+            [
+              -40.297237,
+              -20.2735
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76,
+      "properties": {
+        "id": 76,
+        "nome": "Jardim da Penha",
+        "regiao_id": 9,
+        "regiao": "Região 9 - Jardim da Penha",
+        "populacao": 32850,
+        "area_km2": 2.48,
+        "domicilios": 13240,
+        "centroide_lat": -20.2795,
+        "centroide_lng": -40.2925,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.286217,
+              -20.278789
+            ],
+            [
+              -40.288764,
+              -20.275034
+            ],
+            [
+              -40.293191,
+              -20.274122
+            ],
+            [
+              -40.296826,
+              -20.276316
+            ],
+            [
+              -40.297685,
+              -20.280086
+            ],
+            [
+              -40.296748,
+              -20.284578
+            ],
+            [
+              -40.291709,
+              -20.285651
+            ],
+            [
+              -40.287522,
+              -20.283165
+            ],
+            [
+              -40.286217,
+              -20.278789
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77,
+      "properties": {
+        "id": 77,
+        "nome": "Mata da Praia",
+        "regiao_id": 9,
+        "regiao": "Região 9 - Jardim da Penha",
+        "populacao": 11920,
+        "area_km2": 1.95,
+        "domicilios": 4380,
+        "centroide_lat": -20.2718,
+        "centroide_lng": -40.2885,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.284002,
+              -20.270767
+            ],
+            [
+              -40.286098,
+              -20.268086
+            ],
+            [
+              -40.289601,
+              -20.267581
+            ],
+            [
+              -40.292459,
+              -20.269547
+            ],
+            [
+              -40.292998,
+              -20.272833
+            ],
+            [
+              -40.290902,
+              -20.275514
+            ],
+            [
+              -40.287399,
+              -20.276019
+            ],
+            [
+              -40.284541,
+              -20.274053
+            ],
+            [
+              -40.284002,
+              -20.270767
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 78,
+      "properties": {
+        "id": 78,
+        "nome": "Morada de Camburi",
+        "regiao_id": 9,
+        "regiao": "Região 9 - Jardim da Penha",
+        "populacao": 3640,
+        "area_km2": 0.62,
+        "domicilios": 1290,
+        "centroide_lat": -20.2685,
+        "centroide_lng": -40.2935,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.290668,
+              -20.2675
+            ],
+            [
+              -40.292194,
+              -20.265797
+            ],
+            [
+              -40.294663,
+              -20.265601
+            ],
+            [
+              -40.296634,
+              -20.267168
+            ],
+            [
+              -40.295944,
+              -20.269363
+            ],
+            [
+              -40.294635,
+              -20.270849
+            ],
+            [
+              -40.292483,
+              -20.271035
+            ],
+            [
+              -40.290744,
+              -20.269671
+            ],
+            [
+              -40.290668,
+              -20.2675
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79,
+      "properties": {
+        "id": 79,
+        "nome": "Pontal de Camburi",
+        "regiao_id": 9,
+        "regiao": "Região 9 - Jardim da Penha",
+        "populacao": 2480,
+        "area_km2": 0.39,
+        "domicilios": 940,
+        "centroide_lat": -20.2855,
+        "centroide_lng": -40.2965,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.294079,
+              -20.284318
+            ],
+            [
+              -40.295844,
+              -20.283549
+            ],
+            [
+              -40.297608,
+              -20.283503
+            ],
+            [
+              -40.298998,
+              -20.284761
+            ],
+            [
+              -40.298337,
+              -20.286397
+            ],
+            [
+              -40.297189,
+              -20.287549
+            ],
+            [
+              -40.295341,
+              -20.287588
+            ],
+            [
+              -40.293897,
+              -20.28627
+            ],
+            [
+              -40.294079,
+              -20.284318
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 80,
+      "properties": {
+        "id": 80,
+        "nome": "República",
+        "regiao_id": 9,
+        "regiao": "Região 9 - Jardim da Penha",
+        "populacao": 4890,
+        "area_km2": 0.68,
+        "domicilios": 1780,
+        "centroide_lat": -20.2692,
+        "centroide_lng": -40.2962,
+        "fonte": "Lei Municipal nº 8.611/2013 - PMV / Geobases ES / IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.293176,
+              -20.2692
+            ],
+            [
+              -40.293755,
+              -20.266906
+            ],
+            [
+              -40.2962,
+              -20.266499
+            ],
+            [
+              -40.298543,
+              -20.267002
+            ],
+            [
+              -40.298934,
+              -20.2692
+            ],
+            [
+              -40.298441,
+              -20.271302
+            ],
+            [
+              -40.2962,
+              -20.27258
+            ],
+            [
+              -40.294062,
+              -20.271206
+            ],
+            [
+              -40.293176,
+              -20.2692
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

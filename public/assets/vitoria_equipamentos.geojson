@@ -1,0 +1,1511 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "municipio": "Vitória",
+    "uf": "ES",
+    "fonte": "Prefeitura Municipal de Vitória (SEMUS / SEME / SEMMAM / SEMESP)",
+    "total_equipamentos": 75
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "id": 1,
+        "nome": "US Andorinhas - Dr. Luis Claudio Passos",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Andorinhas",
+        "endereco": "Rua Emílio Ferreira da Silva, 160",
+        "telefone": "(27) 3132-5101",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3082,
+          -20.2865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "properties": {
+        "id": 2,
+        "nome": "US Bonfim - Thomaz Tommassi",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Bonfim",
+        "endereco": "Rua Dióscoro Carneiro Filho, S/N",
+        "telefone": "(27) 3132-5102",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3141,
+          -20.2992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "properties": {
+        "id": 3,
+        "nome": "US Centro - Geny Grijó",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Centro",
+        "endereco": "Rua Cais de São Francisco, 54",
+        "telefone": "(27) 3132-5103",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3371,
+          -20.3204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "properties": {
+        "id": 4,
+        "nome": "US da Penha - Dr. Gilson Santos",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Da Penha",
+        "endereco": "Rua Padre Luiz Koester, 78",
+        "telefone": "(27) 3132-5104",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3101,
+          -20.2978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "properties": {
+        "id": 5,
+        "nome": "US do Quadro - Avelina Maria Lacerda Gonçalves",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Do Quadro",
+        "endereco": "Rua Lucidato Vieira Falcão, 5",
+        "telefone": "(27) 3132-5105",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3485,
+          -20.3148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "properties": {
+        "id": 6,
+        "nome": "US Estrelinha",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Estrelinha",
+        "endereco": "Rodovia Serafim Derenzi, 2285",
+        "telefone": "(27) 3132-5106",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3564,
+          -20.3021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "properties": {
+        "id": 7,
+        "nome": "US Fonte Grande - Dr. Affonso Schwab",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Fonte Grande",
+        "endereco": "Rua Graciano Neves, 352",
+        "telefone": "(27) 3132-5107",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3402,
+          -20.3182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "properties": {
+        "id": 8,
+        "nome": "US Forte São João - Dr. Bolivar de Abreu",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Forte São João",
+        "endereco": "Av. Marechal Mascarenhas de Moraes, 1185",
+        "telefone": "(27) 3132-5108",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3251,
+          -20.3161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "properties": {
+        "id": 9,
+        "nome": "US Ilha das Caieiras - Vereador Nenel Miranda",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Ilha das Caieiras",
+        "endereco": "Rua Felicidade Correia dos Santos, 40",
+        "telefone": "(27) 3132-5109",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3381,
+          -20.2801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "properties": {
+        "id": 10,
+        "nome": "US Ilha de Santa Maria",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Ilha de Santa Maria",
+        "endereco": "Rua João Bastos Vieira, 365",
+        "telefone": "(27) 3132-5110",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3165,
+          -20.3152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "properties": {
+        "id": 11,
+        "nome": "US Ilha do Príncipe - Dr. Manoel Rocha Coutinho",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Ilha do Príncipe",
+        "endereco": "Rua Fenelon Gomes, 112",
+        "telefone": "(27) 3132-5111",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3524,
+          -20.3211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "properties": {
+        "id": 12,
+        "nome": "US Itararé - Dilson dos Santos Loureiro",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Itararé",
+        "endereco": "Rua Doutor Arlindo Sodré, 260",
+        "telefone": "(27) 3132-5112",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3081,
+          -20.2935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "properties": {
+        "id": 13,
+        "nome": "US Jabour - Dr. Carlito Von Schilgen",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Jabour",
+        "endereco": "Rua Engenheiro César Dantas, 176",
+        "telefone": "(27) 3132-5113",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2971,
+          -20.2675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "properties": {
+        "id": 14,
+        "nome": "US Jardim Camburi - Raul Oliveira Nunes",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Jardim Camburi",
+        "endereco": "Rua Belmiro Teixeira Pimenta, 640",
+        "telefone": "(27) 3132-5114",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2692,
+          -20.2582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "properties": {
+        "id": 15,
+        "nome": "US Jardim da Penha - Otaviano Rodrigues de Carvalho",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Jardim da Penha",
+        "endereco": "Av. Francisco Generoso da Fonseca, 320",
+        "telefone": "(27) 3132-5115",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2932,
+          -20.2788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "properties": {
+        "id": 16,
+        "nome": "US Jesus de Nazareth - Dr. Luiz Castellar da Silva",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Jesus de Nazareth",
+        "endereco": "Rua Helena Muller, 168",
+        "telefone": "(27) 3132-5116",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3041,
+          -20.3168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "properties": {
+        "id": 17,
+        "nome": "US Maria Ortiz",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Maria Ortiz",
+        "endereco": "Rua Prof. Renato Ribeiro dos Santos, 271",
+        "telefone": "(27) 3132-5117",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2991,
+          -20.2565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "properties": {
+        "id": 18,
+        "nome": "US Maruípe",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Maruípe",
+        "endereco": "Rua Victor Fritoli Navarro, 20",
+        "telefone": "(27) 3132-5118",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3178,
+          -20.2945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "properties": {
+        "id": 19,
+        "nome": "US Praia do Suá - Lucilo Borges Sant'anna",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Praia do Suá",
+        "endereco": "Rua Caetano Tunholi, S/N",
+        "telefone": "(27) 3132-5119",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2998,
+          -20.3091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "properties": {
+        "id": 20,
+        "nome": "US República - Dr. Jolindo Martins",
+        "tipo": "Unidade de Saúde",
+        "bairro": "República",
+        "endereco": "Av. Rozendo Serapião de Souza Filho, 490",
+        "telefone": "(27) 3132-5120",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2965,
+          -20.2695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "properties": {
+        "id": 21,
+        "nome": "US Resistência",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Resistência",
+        "endereco": "Rua Nossa Senhora da Conceição, 270",
+        "telefone": "(27) 3132-5121",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3281,
+          -20.2771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "properties": {
+        "id": 22,
+        "nome": "US Santa Luíza - Dr. José Moysés",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Santa Luíza",
+        "endereco": "Rua Dr. João Carlos de Souza, 330",
+        "telefone": "(27) 3132-5122",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3035,
+          -20.2915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "properties": {
+        "id": 23,
+        "nome": "US Santa Martha - Benedito Gomes da Silva",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Santa Martha",
+        "endereco": "Rua Getúlio Miranda, 70",
+        "telefone": "(27) 3132-5123",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3148,
+          -20.2882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "properties": {
+        "id": 24,
+        "nome": "US Santo André",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Santo André",
+        "endereco": "Rua da Coragem, 180",
+        "telefone": "(27) 3132-5124",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3345,
+          -20.2782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "properties": {
+        "id": 25,
+        "nome": "US Santo Antônio - Júlio Cézar Prattes Mattos",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Santo Antônio",
+        "endereco": "Rua Ernesto Bassini, 605",
+        "telefone": "(27) 3132-5125",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3568,
+          -20.3092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "properties": {
+        "id": 26,
+        "nome": "US São Cristóvão",
+        "tipo": "Unidade de Saúde",
+        "bairro": "São Cristóvão",
+        "endereco": "Rua Alcides Lyrio do Nascimento, 60",
+        "telefone": "(27) 3132-5126",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3228,
+          -20.2921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "properties": {
+        "id": 27,
+        "nome": "US Alagoano - Ariovaldo Favalessa",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Ariovaldo Favalessa",
+        "endereco": "Servidão Ernesto Caliari, S/N",
+        "telefone": "(27) 3132-5127",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3535,
+          -20.3133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "properties": {
+        "id": 28,
+        "nome": "US Consolação - Maria Rangel dos Passos",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Consolação",
+        "endereco": "Rua Des. Otávio de Carvalho Lengruber, 185",
+        "telefone": "(27) 3132-5128",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3159,
+          -20.3051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "properties": {
+        "id": 29,
+        "nome": "US Conquista / Nova Palestina - Maria Leda Santos",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Nova Palestina",
+        "endereco": "Rodovia Serafim Derenzi, 6090",
+        "telefone": "(27) 3132-5129",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3362,
+          -20.2661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "properties": {
+        "id": 30,
+        "nome": "PA da Praia do Suá (Pronto Atendimento 24h)",
+        "tipo": "Unidade de Saúde",
+        "bairro": "Praia do Suá",
+        "endereco": "Rua Almirante Tamandaré, 150",
+        "telefone": "(27) 3382-6500",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2982,
+          -20.3085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "properties": {
+        "id": 31,
+        "nome": "PA de São Pedro (Pronto Atendimento 24h)",
+        "tipo": "Unidade de Saúde",
+        "bairro": "São Pedro",
+        "endereco": "Rodovia Serafim Derenzi, 4570",
+        "telefone": "(27) 3382-6600",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3328,
+          -20.2858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "properties": {
+        "id": 32,
+        "nome": "EMEF Adão Benezath",
+        "tipo": "Escola",
+        "bairro": "Antônio Honório",
+        "endereco": "Rua Professora Clara Lima, 63",
+        "telefone": "(27) 3382-5301",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3012,
+          -20.2648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "properties": {
+        "id": 33,
+        "nome": "EMEF Adevalni Sysesmundo Ferreira de Azevedo",
+        "tipo": "Escola",
+        "bairro": "Jardim Camburi",
+        "endereco": "Rua Victorino Cardoso, 140",
+        "telefone": "(27) 3382-5302",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2678,
+          -20.2595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "properties": {
+        "id": 34,
+        "nome": "EMEF Alberto de Almeida",
+        "tipo": "Escola",
+        "bairro": "Santo Antônio",
+        "endereco": "Rodovia Serafim Derenzi, 60",
+        "telefone": "(27) 3382-5303",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3581,
+          -20.3082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "properties": {
+        "id": 35,
+        "nome": "EMEF Álvaro de Castro Mattos",
+        "tipo": "Escola",
+        "bairro": "Jardim da Penha",
+        "endereco": "Rua Eugenílio Ramos, 781",
+        "telefone": "(27) 3382-5304",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2918,
+          -20.2802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "properties": {
+        "id": 36,
+        "nome": "EMEF Alvimar Silva",
+        "tipo": "Escola",
+        "bairro": "Mário Cypreste",
+        "endereco": "Rua Miguel Pessoa, 10",
+        "telefone": "(27) 3382-5305",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3562,
+          -20.3171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "properties": {
+        "id": 37,
+        "nome": "EMEF Aristóbulo Barbosa Leão",
+        "tipo": "Escola",
+        "bairro": "Bento Ferreira",
+        "endereco": "Avenida Vitória, 3010",
+        "telefone": "(27) 3382-5306",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3099,
+          -20.3128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "properties": {
+        "id": 38,
+        "nome": "EMEF Arthur da Costa e Silva",
+        "tipo": "Escola",
+        "bairro": "República",
+        "endereco": "Rua Presidente Rodrigues Alves, 255",
+        "telefone": "(27) 3382-5307",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2958,
+          -20.2688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "properties": {
+        "id": 39,
+        "nome": "EMEF Castelo Branco",
+        "tipo": "Escola",
+        "bairro": "Ilha do Príncipe",
+        "endereco": "Avenida Jurema Barroso, 130",
+        "telefone": "(27) 3382-5308",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3532,
+          -20.3205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "properties": {
+        "id": 40,
+        "nome": "EMEF Ceciliano Abel de Almeida",
+        "tipo": "Escola",
+        "bairro": "Itararé",
+        "endereco": "Rua Doutor Arlindo Sodré, 416",
+        "telefone": "(27) 3382-5309",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3089,
+          -20.2928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "properties": {
+        "id": 41,
+        "nome": "EMEF Eber Louzada Zippinotti",
+        "tipo": "Escola",
+        "bairro": "Jardim da Penha",
+        "endereco": "Rua Natalina Daher Carneiro, 815",
+        "telefone": "(27) 3382-5310",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2941,
+          -20.2782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "properties": {
+        "id": 42,
+        "nome": "EMEF Eliane Rodrigues dos Santos",
+        "tipo": "Escola",
+        "bairro": "Ilha das Caieiras",
+        "endereco": "Rua Felicidade Correia dos Santos, 620",
+        "telefone": "(27) 3382-5311",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3391,
+          -20.2792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "properties": {
+        "id": 43,
+        "nome": "EMEF Elzira Vivacqua dos Santos",
+        "tipo": "Escola",
+        "bairro": "Jardim Camburi",
+        "endereco": "Rua Filogônio Motta, 70",
+        "telefone": "(27) 3382-5312",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2702,
+          -20.2575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "properties": {
+        "id": 44,
+        "nome": "EMEF Francisco Lacerda de Aguiar",
+        "tipo": "Escola",
+        "bairro": "São Pedro",
+        "endereco": "Rua Guilherme Bassini, 57",
+        "telefone": "(27) 3382-5313",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3338,
+          -20.2872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "properties": {
+        "id": 45,
+        "nome": "EMEF Heloisa Abreu Júdice de Mattos",
+        "tipo": "Escola",
+        "bairro": "Bela Vista",
+        "endereco": "Rua Manoel Ferreira Constantino, 400",
+        "telefone": "(27) 3382-5314",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3591,
+          -20.3058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "properties": {
+        "id": 46,
+        "nome": "EMEF Izaura Marques da Silva",
+        "tipo": "Escola",
+        "bairro": "Andorinhas",
+        "endereco": "Av. Leitão da Silva, 3291",
+        "telefone": "(27) 3382-5315",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3092,
+          -20.2858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "properties": {
+        "id": 47,
+        "nome": "CMEI Ana Maria Chaves Colares",
+        "tipo": "Escola",
+        "bairro": "Jardim Camburi",
+        "endereco": "Rua Oswaldo Bastos de Souza Freitas, 380",
+        "telefone": "(27) 3382-5316",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2665,
+          -20.2602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "properties": {
+        "id": 48,
+        "nome": "CMEI Anísio Spínola Teixeira",
+        "tipo": "Escola",
+        "bairro": "Resistência",
+        "endereco": "Rua América do Sul, 100",
+        "telefone": "(27) 3382-5317",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3289,
+          -20.2762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "properties": {
+        "id": 49,
+        "nome": "CMEI Ernestina Pessoa",
+        "tipo": "Escola",
+        "bairro": "Parque Moscoso",
+        "endereco": "Av. República, 200",
+        "telefone": "(27) 3382-5318",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3438,
+          -20.3185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "properties": {
+        "id": 50,
+        "nome": "Parque Municipal Pedra da Cebola",
+        "tipo": "Parque",
+        "bairro": "Mata da Praia",
+        "endereco": "Rua Ana Vieira Mafra, S/N",
+        "telefone": "(27) 3382-6593",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2962,
+          -20.2752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "properties": {
+        "id": 51,
+        "nome": "Parque Municipal Horto de Maruípe",
+        "tipo": "Parque",
+        "bairro": "Maruípe",
+        "endereco": "Avenida Maruípe, 1750",
+        "telefone": "(27) 3382-6595",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3185,
+          -20.2962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "properties": {
+        "id": 52,
+        "nome": "Parque Moscoso",
+        "tipo": "Parque",
+        "bairro": "Parque Moscoso",
+        "endereco": "Avenida Cleto Nunes, 242",
+        "telefone": "(27) 3382-6597",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3432,
+          -20.3191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "properties": {
+        "id": 53,
+        "nome": "Parque Municipal de Barreiros",
+        "tipo": "Parque",
+        "bairro": "São Cristóvão",
+        "endereco": "Rodovia Serafim Derenzi, 10505",
+        "telefone": "(27) 3382-6599",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3235,
+          -20.2912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "properties": {
+        "id": 54,
+        "nome": "Parque Pianista Manolo Cabral (Chácara Paraíso)",
+        "tipo": "Parque",
+        "bairro": "Barro Vermelho",
+        "endereco": "Rua Chapot Presvot / Rua Guilherme Serrano",
+        "telefone": "(27) 3382-6590",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2988,
+          -20.2942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "properties": {
+        "id": 55,
+        "nome": "Parque Padre Alfonso Pastore",
+        "tipo": "Parque",
+        "bairro": "Mata da Praia",
+        "endereco": "Av. Nicolau Von Schilgen, S/N",
+        "telefone": "(27) 3382-6590",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2892,
+          -20.2708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "properties": {
+        "id": 56,
+        "nome": "Atlântica Parque",
+        "tipo": "Parque",
+        "bairro": "Jardim Camburi",
+        "endereco": "Av. Dante Michelini (final da Orla de Camburi)",
+        "telefone": "(27) 3382-6590",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2652,
+          -20.2645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "properties": {
+        "id": 57,
+        "nome": "Parque Barão de Monjardim",
+        "tipo": "Parque",
+        "bairro": "De Lourdes",
+        "endereco": "Rua Flávio Abaurre / Rua Eng. Alencar Araripe",
+        "telefone": "(27) 3382-6590",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3202,
+          -20.3055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "properties": {
+        "id": 58,
+        "nome": "Parque Cultural Reserva Vitória",
+        "tipo": "Parque",
+        "bairro": "Enseada do Suá",
+        "endereco": "Av. Marília Scarton Coutinho",
+        "telefone": "(27) 3382-6590",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2855,
+          -20.3118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "properties": {
+        "id": 59,
+        "nome": "Parque Estadual da Fonte Grande",
+        "tipo": "Parque",
+        "bairro": "Fradinhos",
+        "endereco": "Rodovia Serafim Derenzi, S/N",
+        "telefone": "(27) 3382-6576",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3395,
+          -20.3088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "properties": {
+        "id": 60,
+        "nome": "Parque Natural Municipal Gruta da Onça",
+        "tipo": "Parque",
+        "bairro": "Centro",
+        "endereco": "Rua Barão de Monjardim, Centro",
+        "telefone": "(27) 3382-6578",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3365,
+          -20.3172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "properties": {
+        "id": 61,
+        "nome": "Praça do Papa (Praça Israel Pinheiro)",
+        "tipo": "Praça",
+        "bairro": "Enseada do Suá",
+        "endereco": "Av. Nossa Senhora dos Navegantes",
+        "telefone": "",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2932,
+          -20.3145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "properties": {
+        "id": 62,
+        "nome": "Praça dos Namorados",
+        "tipo": "Praça",
+        "bairro": "Praia do Canto",
+        "endereco": "Av. Saturnino de Brito",
+        "telefone": "",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2912,
+          -20.3012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "properties": {
+        "id": 63,
+        "nome": "Praça da Ciência",
+        "tipo": "Praça",
+        "bairro": "Praia do Canto",
+        "endereco": "Av. Américo Buaiz, S/N",
+        "telefone": "(27) 3345-0882",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2918,
+          -20.3045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "properties": {
+        "id": 64,
+        "nome": "Praça Costa Pereira",
+        "tipo": "Praça",
+        "bairro": "Centro",
+        "endereco": "Av. Jerônimo Monteiro, Centro",
+        "telefone": "",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3375,
+          -20.3198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "properties": {
+        "id": 65,
+        "nome": "Praça Oito de Setembro",
+        "tipo": "Praça",
+        "bairro": "Centro",
+        "endereco": "Av. Jerônimo Monteiro / Av. Mal. Mascarenhas de Moraes",
+        "telefone": "",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3392,
+          -20.3212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "properties": {
+        "id": 66,
+        "nome": "Praça Nilze Mendes",
+        "tipo": "Praça",
+        "bairro": "Jardim Camburi",
+        "endereco": "Rua Carlos Martins, Jardim Camburi",
+        "telefone": "",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2682,
+          -20.2568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "properties": {
+        "id": 67,
+        "nome": "Praça Regina Frigeri Furno",
+        "tipo": "Praça",
+        "bairro": "Jardim da Penha",
+        "endereco": "Av. Anísio Fernandes Coelho, Jardim da Penha",
+        "telefone": "",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2935,
+          -20.2812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "properties": {
+        "id": 68,
+        "nome": "Praça Philogomiro Lannes",
+        "tipo": "Praça",
+        "bairro": "Jardim da Penha",
+        "endereco": "Av. Hugo Viola, Jardim da Penha",
+        "telefone": "",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.2952,
+          -20.2772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "properties": {
+        "id": 69,
+        "nome": "Praça Asdrúbal Soares",
+        "tipo": "Praça",
+        "bairro": "Jucutuquara",
+        "endereco": "Av. Paulino Muller, Jucutuquara",
+        "telefone": "",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3218,
+          -20.3088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 70,
+      "properties": {
+        "id": 70,
+        "nome": "Centro Esportivo Tancredo de Almeida Neves (Tancredão)",
+        "tipo": "Equipamento Esportivo",
+        "bairro": "Mário Cypreste",
+        "endereco": "Rua Rosilda Falcão dos Anjos, 150",
+        "telefone": "(27) 3382-6430",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3575,
+          -20.3175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71,
+      "properties": {
+        "id": 71,
+        "nome": "Ginásio Poliesportivo Tartarugão (Jones dos Santos Neves)",
+        "tipo": "Equipamento Esportivo",
+        "bairro": "Bento Ferreira",
+        "endereco": "Rua Desembargador Ferreira Coelho, 100",
+        "telefone": "(27) 3132-2050",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3085,
+          -20.3132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 72,
+      "properties": {
+        "id": 72,
+        "nome": "Centro de Esportes e Lazer de Eucalipto",
+        "tipo": "Equipamento Esportivo",
+        "bairro": "Bonfim",
+        "endereco": "Rua Monsenhor Raymundo Pereira Barros, 17",
+        "telefone": "(27) 3382-6433",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3125,
+          -20.3005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 73,
+      "properties": {
+        "id": 73,
+        "nome": "Palácio Jerônimo Monteiro - Prefeitura Municipal de Vitória",
+        "tipo": "Equipamento Público",
+        "bairro": "Bento Ferreira",
+        "endereco": "Av. Marechal Mascarenhas de Moraes, 1927",
+        "telefone": "156",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3112,
+          -20.3145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 74,
+      "properties": {
+        "id": 74,
+        "nome": "Câmara Municipal de Vitória",
+        "tipo": "Equipamento Público",
+        "bairro": "Bento Ferreira",
+        "endereco": "Av. Marechal Mascarenhas de Moraes, 1788",
+        "telefone": "(27) 3334-4500",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3125,
+          -20.3151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "properties": {
+        "id": 75,
+        "nome": "Ciac Itararé - Centro Integrado de Atendimento ao Cidadão",
+        "tipo": "Equipamento Público",
+        "bairro": "Itararé",
+        "endereco": "Rua Marins Alvarino, 384",
+        "telefone": "156",
+        "fonte": "Prefeitura Municipal de Vitória (Portal Oficial)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3075,
+          -20.2938
+        ]
+      }
+    }
+  ]
+}

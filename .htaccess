@@ -1,0 +1,46 @@
+# =============================================================================
+# VITÓRIA INTELIGÊNCIA — Configuração Apache / Plesk (.htaccess)
+# =============================================================================
+
+Options -Indexes
+ServerSignature Off
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Bloquear acesso direto a pastas sensíveis de backend, banco, cron e storage
+    RewriteRule ^(app|config|cron|database|storage|views)(/.*)?$ - [F,L]
+
+    # Permitir acesso ao instalador visual em /install
+    RewriteRule ^install/?$ install/index.php [L,QSA]
+
+    # Permitir arquivos estáticos na pasta public/assets
+    RewriteCond %{REQUEST_FILENAME} -f
+    RewriteRule ^ - [L]
+</IfModule>
+
+# Proteção de arquivos sensíveis (.sql, .log, .lock, .json internos, .sh, .py)
+<FilesMatch "\.(sql|log|lock|env|py|sh|bak)$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+# Permitir arquivos .geojson públicos para o mapa Leaflet
+<FilesMatch "\.geojson$">
+    <IfModule mod_authz_core.c>
+        Require all granted
+    </IfModule>
+</FilesMatch>
+
+# Cabeçalhos de Segurança HTTP
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set X-XSS-Protection "1; mode=block"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>

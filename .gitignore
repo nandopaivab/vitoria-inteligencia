@@ -1,0 +1,10 @@
+# Arquivos gerados na instalação do servidor Plesk (não devem ser sobrescritos em novos deploys)
+config/config.php
+storage/installed.lock
+storage/logs/*.log
+storage/backups/*.sql
+storage/backups/*.pdf
+storage/cache/*.lock
+storage/cache/*.tmp
+storage/cache/*.json
+.DS_Store
